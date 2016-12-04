@@ -6,6 +6,10 @@ gem 'rails', '4.0.4'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+#bootstrap
+gem 'bootstrap-sass'
+gem "font-awesome-rails"
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 

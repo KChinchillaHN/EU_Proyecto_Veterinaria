@@ -1,8 +1,4 @@
 class OwnersController < ApplicationController
-  namespace :admin do
-    resources :owners, :pets
-  end
-
   def index
   	@owners = Owner.order(:id)
   end

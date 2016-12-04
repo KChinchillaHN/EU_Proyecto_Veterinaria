@@ -7,16 +7,44 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<table>
-	<tbody>
-		<tr>
-			<td> <%= link_to "Home", root_path %> </td>
-			<td> <%= link_to "Propietarios", owners_path %> </td>
-			<td> <%= link_to "Animal", animals_path %> </td>
-			<td> <%= link_to "Mascotas", pets_path %> </td>
-		</tr>
-	</tbody>	
-</table>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">
+				Veterinaria Chansey</a>
+		</div>
+
+		<ul class="nav navbar-nav">
+			<li>
+				<%= link_to root_path do %>
+					<span class="fa fa-home"></span> 
+					Inicio
+				<% end %>
+			</li>
+
+			<li>
+				<%= link_to owners_path do %>
+					<span class="fa fa-users"></span> 
+					Propietarios
+				<% end %>
+			</li>
+
+			<li>
+				<%= link_to animals_path do %>
+					<span class="fa fa-gitlab"></span> 
+					Animales
+				<% end %>
+			</li>
+
+			<li>
+				<%= link_to pets_path do %>
+					<span class="fa fa-linux"></span> 
+					Mascotas
+				<% end %>
+			</li>
+	    </ul>
+	  </div>
+	</nav>
 
 <%= yield %>
 
