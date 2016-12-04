@@ -1,0 +1,11 @@
+<h1>Editar Cita</h1>
+
+<%= render partial: "shared/errors", locals: { obj: @appointment } %>
+
+<%= form_for [@pet, @appointment] do |f| %>
+	<%= render partial: "form", locals: {f: f} %>
+	<p>
+		<%= f.submit "Actualizar" %>
+		<%= link_to "Cancelar", @pet %>
+	</p>
+<%- end %>

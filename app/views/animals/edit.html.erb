@@ -1,0 +1,13 @@
+<h1>Editar Mascotas</h1>
+<p><em>Verificar los siguientes datos: </em></p>
+
+<%= render partial: "shared/errors", locals: { obj: @animal } %>
+
+<%= form_for @animal do |f| %>
+	<%= render partial: "form", locals: {f: f} %>
+
+	<p>
+		<%= f.submit "Actualizar" %>
+		<%= link_to "Cancelar", animals_path %>
+	</p>
+<%- end %>

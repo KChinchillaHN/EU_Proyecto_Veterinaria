@@ -1,0 +1,36 @@
+<h1><b> <%= @owner.name + " " + @owner.last_name %> </b></h1>
+
+<p> <i> <%= @owner.address %> <i></p>
+<hr> </hr>
+<ul>
+	<li>
+		<strong>ID: </strong>
+		<%= @owner.id %>
+	</li>
+	<li>
+		<strong>Nombre: </strong>
+		<%= @owner.name %>
+	</li>
+	<li>
+		<strong>Apellido: </strong>
+		<%= @owner.last_name %>
+	</li>
+	<li>
+		<strong>Email: </strong>
+		<%= @owner.email %>
+	</li>
+	<li>
+		<strong>Telefono: </strong>
+		<%= @owner.phone %>
+	</li>
+</ul>
+
+<p>
+	<table>
+		<tr>
+			<td><%= link_to "Editar Propietario", edit_owner_path %></td>
+			<td><%= link_to "Eliminar Propietario", @owner, method: :delete, data: {confirm: "Estas Seguro?"}  %> </td>
+		</tr>
+	</table>
+</p>
+

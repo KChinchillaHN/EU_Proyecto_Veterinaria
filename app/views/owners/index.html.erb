@@ -1,0 +1,36 @@
+<%= owner_index_title %>
+<%= owner_index_description %>
+
+<hr>
+
+<% if flash[:notice] %>
+	<div style="background: yellow">
+		<%= flash[:notice] %>
+	</div>
+<% end %>
+
+<table border="1">
+	<thead>
+		<th colspan="3">
+			Informacion Personal
+		</th>
+			<th colspan="3">
+			Datos de Contacto
+		</th>
+		<tr>
+			<th>ID</th>
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>Telefono</th>
+		</tr>
+	</thead>
+	<tbody>
+		<%= render @owners %>
+	</tbody>
+</table>
+
+<table>
+	<tbody>
+		<td> <%= link_to "Agregar Propietario", new_owner_path %></td>
+	</tbody>
+</table>

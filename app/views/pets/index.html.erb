@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<title> Veterinaria Chansey </title>
+	</head> 
+	<body>
+		<h1>Veterinaria Chansey</h1>
+		<p>Atendido por las mas entrenadas enfermeras Joy</p>
+
+		<% if flash[:notice].present? %>
+		<div>
+			<%= flash[:notice] %>
+		</div>
+		<% end %>
+
+		<table border="1">
+			<thead>
+			<tr>
+				<th>ID</th>
+				<th>Nombre</th>
+				<th>Fecha Nacimiento</th>
+			</tr>
+			</thead>
+			<tbody>
+					<%= render @pets %>
+			</tbody>
+		</table>
+<p>
+	<td> <%= link_to "Nuevo", new_pet_path %> </td>
+</p>
+</body>
+</html>

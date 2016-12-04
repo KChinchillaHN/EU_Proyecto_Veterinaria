@@ -1,0 +1,12 @@
+<h1>Editar Propiestario</h1>
+
+<%= render partial: "shared/errors", locals: { obj: @owner } %>
+
+<%= form_for @owner do |f| %>
+	<%= render partial: "form", locals: {f: f} %>
+	<p>
+		<%= f.submit "Actualizar" %>
+		<%= link_to "Cancelar", @owner %>
+		<%= link_to "Borrar", @owner, method: :delete, data: {confirm: "Estas Seguro?"}  %>
+	</p>
+<%- end %>

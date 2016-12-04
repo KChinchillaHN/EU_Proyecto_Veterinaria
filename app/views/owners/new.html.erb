@@ -1,0 +1,12 @@
+<h1>Crear nuevo Propiestario</h1>
+<p><em>Ingrese los siguientes datos: </em></p>
+
+<%= render partial: "shared/errors", locals: { obj: @owner } %>
+
+<%= form_for @owner do |f| %>
+	<%= render partial: "form", locals: {f: f} %>
+	<p>
+		<%= f.submit "Crear" %>
+		<%= link_to "Cancelar", owners_path %>
+	</p>
+<%- end %>

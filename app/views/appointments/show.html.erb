@@ -1,0 +1,23 @@
+<h1><b> <%= @pet.name + " Cita Numero: " + @appointment.id.to_s %> </b></h1>
+
+<p> <i> <%= @appointment.description %> <i></p>
+<hr> </hr>
+<ul>
+	<li>
+		<strong>ID: </strong>
+		<%= @appointment.id %>
+	</li>
+	<li>
+		<strong>Fecha: </strong>
+		<%= nice_date(@appointment.created_at) %>
+	</li>
+
+<p>
+	<table>
+		<tr>
+			<td><%= link_to "Regresar", @pet %></td>
+			<td><%= link_to "Editar Cita", edit_pet_appointment_path %></td>
+		</tr>
+	</table>
+	
+</p>
