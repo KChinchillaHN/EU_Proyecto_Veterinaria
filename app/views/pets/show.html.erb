@@ -8,6 +8,14 @@
 		<%= @pet.id %>
 	</li>
 	<li>
+		<strong>Animal: </strong>
+		<%= @pet.animal.name %>
+	</li>
+	<li>
+		<strong>Raza: </strong>
+		<%= @pet.breed %>
+	</li>
+	<li>
 		<strong>Fecha de Nacimiento: </strong>
 		<%= nice_date(@pet.born_at) %>
 	</li>

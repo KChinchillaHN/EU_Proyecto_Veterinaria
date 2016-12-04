@@ -10,6 +10,8 @@ resources :pets do
 end
 resources :owners
 resources :animals
+
+get "/owners/pets" => "admin/pets#index"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

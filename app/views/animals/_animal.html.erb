@@ -1,7 +1,6 @@
 <tr>
 	<td><%= animal.id %></td>
 	<td><%= animal.name %></td>
-	<td><%= animal.breed %></td>
-	<td><%= link_to "Editar", edit_animal_path(animal) %></td>
+	<td><%= link_to "Editar Mascota", edit_animal_path(animal) %></td>
 	<td><%= link_to "Eliminar", animal, method: :delete, data: {confirm: "Estas Seguro?"}  %> </td>
 </tr>
