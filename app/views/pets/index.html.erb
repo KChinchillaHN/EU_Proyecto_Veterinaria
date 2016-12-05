@@ -1,20 +1,14 @@
-<!DOCTYPE html> 
-<html>
-	<head>
-		<title> Veterinaria Chansey </title>
-	</head> 
-	<body>
-		<h1>Veterinaria Chansey</h1>
-		<p>Atendido por las mas entrenadas enfermeras Joy</p>
+<h1>Veterinaria Chansey</h1>
+<p>Atendido por las mas entrenadas enfermeras Joy</p>
 
-		<% if flash[:notice].present? %>
-		<div>
-			<%= flash[:notice] %>
-		</div>
-		<% end %>
+	<% if flash[:notice] %>
+	<div style="background: yellow">
+		<%= flash[:notice] %>
+	</div>
+<% end %>
 
-		<table border="1">
-			<thead>
+<table border="2" class="table table-hover table-bordered">
+	<thead>
 			<tr>
 				<th>ID</th>
 				<th>Nombre</th>
@@ -27,8 +21,7 @@
 					<%= render @pets %>
 			</tbody>
 		</table>
-<p>
-	<td> <%= link_to "Nuevo", new_pet_path %> </td>
-</p>
+
+<div class="btn-group" role="group">
+	<%= link_to "Nuevo", new_pet_path, class: "btn btn-default" %>
 </body>
-</html>

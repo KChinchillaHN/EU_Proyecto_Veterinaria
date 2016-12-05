@@ -1,33 +1,27 @@
-<!DOCTYPE html> 
-<html>
-	<head>
-		<title> Veterinaria Chansey </title>
-	</head> 
-	<body>
-		<h1>Veterinaria Chansey</h1>
-		<p>Atendido por las mas entrenadas enfermeras Joy</p>
+<h1>Veterinaria Chansey</h1>
+<p>Atendido por las mas entrenadas enfermeras Joy</p>
 
-		<% if flash[:notice].present? %>
-		<div>
-			<%= flash[:notice] %>
-		</div>
-		<% end %>
+	<% if flash[:notice] %>
+	<div style="background: yellow">
+		<%= flash[:notice] %>
+	</div>
+<% end %>
 
-		<table border="1">
-			<thead>
-			<tr>
-				<th>ID</th>
-				<th>Nombre</th>
-				<th></th>
-				<th></th>
-			</tr>
-			</thead>
-			<tbody>
-					<%= render @animals %>
-			</tbody>
-		</table>
-<p>
-	<td> <%= link_to "Nuevo", new_animal_path %> </td>
-</p>
+<table border="2" class="table table-hover table-bordered">
+	<thead>
+	<tr>
+		<th>ID</th>
+		<th>Nombre</th>
+		<th colspan="2">
+			Acciones
+		</th>
+	</tr>
+	</thead>
+	<tbody>
+			<%= render @animals %>
+	</tbody>
+</table>
+
+<div class="btn-group" role="group">
+	<%= link_to "Agregar Animal", new_animal_path, class: "btn btn-default" %>
 </body>
-</html>

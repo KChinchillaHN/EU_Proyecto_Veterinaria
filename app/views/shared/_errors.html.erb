@@ -1,10 +1,9 @@
 <%- if obj.errors.any? %>
-	<div>
-		Por favor corrija los siguientes problemas:
+<div class="alert alert-warning" role="alert">
+<strong> Favor corrija los siguiente: </strong>
 		<ul>
 			<%- obj.errors.full_messages.each do |msg| %>
-
-				<li><%= msg %></li>	
+				<a href="#" class="alert-link"><li><%= msg %></li></a>	
 			<%- end %>
 		</ul>
 	</div>

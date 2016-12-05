@@ -1,7 +1,15 @@
-<h1><b> <%= @pet.name %> </b></h1>
+<div class="row"> 
+  <div class="col-md-3 col-xs-6"> 
+     <a href="#" class="thumbnail"> <img alt="Sin imagen para mostrar" data-src="holder.js/100%x180" style="height: 180px; width: 100%; display: block;" src=<%= @pet.pet_url %> data-holder-rendered="true"> 
+     </a> 
+  	<div class="caption">
+			<h1><b> <%= @pet.name %> </b></h1>
+			<p> <i> <%= @pet.observations %> <i></p>
+		</div>	
+  </div>
+</div>
 
-<p> <i> <%= @pet.observations %> <i></p>
-<hr> </hr>
+<hr>
 <ul>
 	<li>
 		<strong>ID: </strong>
@@ -20,10 +28,6 @@
 		<%= nice_date(@pet.born_at) %>
 	</li>
 	<li>
-		<strong>Foto: </strong>
-		<%= @pet.pet_url %>
-	</li>
-	<li>
 		<strong>Total en Citas: </strong>
 		<%= @pet.sum_of_appointments %>
 	</li>
@@ -31,13 +35,8 @@
 
 <%= render partial: "pet_appointments", locals: {appointments: @pet.appointments} %>
 
-<p>
-	<table>
-		<tr>
-			<td><%= link_to "Editar Mascota", edit_pet_path %></td>
-			<td><%= link_to "Eliminar Mascota", @pet, method: :delete, data: {confirm: "Estas Seguro?"}  %> </td>
-			<td><%= link_to "Crear una cita", new_pet_appointment_path(@pet) %></td>
-		</tr>
-	</table>
-	
-</p>
+<div class="btn-group" role="group" aria-label="Acciones">
+	<%= link_to "Editar Mascota", edit_pet_path, class: "btn btn-default" %>
+	<%= link_to "Eliminar Mascota", @pet, method: :delete, data: {confirm: "Estas Seguro?"}, class: "btn btn-default" %>
+	<%= link_to "Crear una cita", new_pet_appointment_path(@pet), class: "btn btn-default" %>
+</div>

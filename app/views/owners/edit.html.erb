@@ -4,9 +4,10 @@
 
 <%= form_for @owner do |f| %>
 	<%= render partial: "form", locals: {f: f} %>
-	<p>
-		<%= f.submit "Actualizar" %>
-		<%= link_to "Cancelar", @owner %>
-		<%= link_to "Borrar", @owner, method: :delete, data: {confirm: "Estas Seguro?"}  %>
-	</p>
+	<div class="btn-group" role="group" aria-label="Acciones">
+		<%= button_tag(type: 'submit', class: "btn btn-default") do %>
+			<i class="icon-ok icon-white"></i> Actualizar
+		<% end %>
+		<%= link_to "Cancelar", @owner, class: "btn btn-default"%>
+		<%= link_to "Borrar", @owner, method: :delete, data: {confirm: "Estas Seguro?"}, class: "btn btn-default"%>
 <%- end %>

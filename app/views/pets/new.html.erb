@@ -6,7 +6,10 @@
 <%= form_for @pet do |f| %>
 <%= render partial: "form", locals: {f: f} %>
 	<p>
-		<%= f.submit "Crear" %>
-		<%= link_to "Cancelar", pets_path %>
+<div class="btn-group" role="group" aria-label="Acciones">
+		<%= button_tag(type: 'submit', class: "btn btn-default") do %>
+			<i class="icon-ok icon-white"></i> Crear Mascota
+		<% end %>
+		<%= link_to "Cancelar", pets_path, class: "btn btn-default" %>
 	</p>
 <%- end %>

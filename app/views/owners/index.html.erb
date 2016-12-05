@@ -9,12 +9,12 @@
 	</div>
 <% end %>
 
-<table border="1">
+<table border="2" class="table table-hover table-bordered">
 	<thead>
 		<th colspan="3">
 			Informacion Personal
 		</th>
-			<th colspan="3">
+			<th colspan="1">
 			Datos de Contacto
 		</th>
 		<tr>
@@ -29,8 +29,6 @@
 	</tbody>
 </table>
 
-<table>
-	<tbody>
-		<td> <%= link_to "Agregar Propietario", new_owner_path %></td>
-	</tbody>
-</table>
+<div class="btn-group" role="group" aria-label="Acciones">
+	<%= link_to "Agregar Propietario", new_owner_path, class: "btn btn-default"%>
+</div>

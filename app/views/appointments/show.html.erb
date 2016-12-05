@@ -12,12 +12,6 @@
 		<%= nice_date(@appointment.created_at) %>
 	</li>
 
-<p>
-	<table>
-		<tr>
-			<td><%= link_to "Regresar", @pet %></td>
-			<td><%= link_to "Editar Cita", edit_pet_appointment_path %></td>
-		</tr>
-	</table>
-	
-</p>
+	<hr>
+	<%= link_to "Cancelar", @pet, class: "btn btn-default" %>
+	<%= link_to "Editar Cita", edit_pet_appointment_path, class: "btn btn-default" %>
