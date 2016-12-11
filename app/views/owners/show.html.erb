@@ -28,4 +28,5 @@
 <div class="btn-group" role="group" aria-label="Acciones">
 	<%= link_to "Editar Propietario", edit_owner_path, class: "btn btn-default"  %>
 	<%= link_to "Eliminar Propietario", @owner, method: :delete, data: {confirm: "Estas Seguro?"}  , class: "btn btn-default"%>
+	<%= link_to "Ver Mascotas", owner_pets_path, class: "btn btn-default"  %>
 

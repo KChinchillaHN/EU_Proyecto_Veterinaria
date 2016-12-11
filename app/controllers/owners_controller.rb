@@ -3,6 +3,9 @@ class OwnersController < ApplicationController
   	@owners = Owner.order(:id)
   end
 
+  def owner_pets
+  end
+
   def show
   	@owner = Owner.find(params[:id])
   end

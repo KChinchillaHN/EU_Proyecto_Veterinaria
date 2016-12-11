@@ -8,10 +8,11 @@ root 'welcome#index'
 resources :pets do
   resources :appointments, except: [:index,:delete]
 end
+
 resources :owners
 resources :animals
 
-get "/owners/pets" => "admin/pets#index"
+get "/owner/pets" => "owners#owner_pets"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
