@@ -1,0 +1,31 @@
+<h1>Login</h1>
+<p>Por favor ingrese sus credenciales:</p>
+
+<% if flash[:error] %>
+	<div class="alert alert-danger" role="alert">
+		<%= flash[:error] %>
+	</div>
+<% end %>
+
+<%= form_for :session, url: login_path do |f| %>
+	<div class="form-group">
+	<%= f.label :email %>
+	<%= f.email_field :email, class: "form-control", placeholder: "Ingrese su email" %>
+	</div>
+	<div class="form-group">
+		<%= f.label :password %>
+		<%= f.password_field :password, class: "form-control" %>
+	</div>
+	<div class="btn-group">
+		<%= button_tag type: "submit", class: "btn btn-default" do %>
+			<span class="fa fa-sign-in"></span>
+			Iniciar Sesion
+		<% end %>
+
+		<%= link_to new_doctor_path, :class => "btn btn-default" do %>
+    	<span class="fa fa-address-card-o"></span>
+    	Crear Doctor
+		<% end %>
+		
+	</div>
+<% end %>

@@ -20,4 +20,5 @@ class Pet < ActiveRecord::Base
 			self.pet_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Pou.png/220px-Pou.png"
 		end
 	end
+
 end

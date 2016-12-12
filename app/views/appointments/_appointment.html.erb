@@ -1,5 +1,6 @@
 <tr>
 	<td><%= link_to appointment.id, [appointment.pet, appointment] %></td>
 	<td><%= nice_date(appointment.created_at) %></td>
+	<td><%= appointment.doctor_id %></td>
 	<td><%= appointment.amount %></td>
 </tr>

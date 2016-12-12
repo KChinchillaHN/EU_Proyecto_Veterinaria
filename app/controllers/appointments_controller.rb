@@ -17,16 +17,19 @@ class AppointmentsController < ApplicationController
   def show
     @pet = Pet.find(params[:pet_id])
     @appointment = Appointment.find(params[:id])
+    @doctor = Doctor.find(@current_user.id)
   end
 
   def edit
     @pet = Pet.find(params[:pet_id])
     @appointment = Appointment.find(params[:id])
+    @doctor = Doctor.find(@current_user.id)
   end
 
   def update
     @pet = Pet.find(params[:pet_id])
     @appointment = Appointment.find(params[:id])
+    @doctor = Doctor.find(@current_user.id)
     if @appointment.update_attributes(appointment_params)
       redirect_to @pet
     else

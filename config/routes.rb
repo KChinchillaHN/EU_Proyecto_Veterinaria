@@ -11,8 +11,16 @@ end
 
 resources :owners
 resources :animals
+resources :doctors
 
 get "/owner/pets" => "owners#owner_pets"
+
+get "/login" => "sessions#new"
+post "/login" => "sessions#create"
+delete "/logout" => "sessions#destroy"
+
+get "/profile" => "doctors#show"
+get "/edit_profile" => "doctors#edit"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

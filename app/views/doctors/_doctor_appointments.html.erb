@@ -1,0 +1,18 @@
+<% if appointments.any? %>
+	<div>
+		<h2>Citas hechas: </h2>
+<table border="2" class="table table-hover table-bordered">
+			<thead>
+				<th>ID</th>
+				<th>Fecha</th>
+				<th>Doctor</th>
+				<th>Monto Pagado</th>
+			</thead>
+			<tbody>
+			<%= render appointments %>
+			</tbody>
+		</table>
+	</div>
+<% else %>
+	<p><em>No tiene citas registradas aun.</em></p>
+<% end %>

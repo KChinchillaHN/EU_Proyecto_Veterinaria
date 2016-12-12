@@ -1,0 +1,29 @@
+<div>
+  <h1 class="page-header">
+  	<%= @current_user.name %>
+  </h1>
+
+ <table border="2" class="table table-hover table-bordered">
+	<thead>
+		<tr>
+			<th>Email</th>
+			<th>Total de Ingresos</th>
+		</tr>
+	</thead>
+	<tbody>
+		<td> <%= @current_user.email %> </td>
+		<td> <%= @current_user.sum_of_appointments %> </td>
+	</tbody>
+</table>
+
+<div class="btn-group" role="group" aria-label="Acciones">
+<%= link_to "Editar Informacion", edit_profile_path, class: "btn btn-default"  %>
+</div>
+
+<%= render partial: "doctor_appointments", locals: {appointments: @doctor.appointments} %>
+
+ </div>
+
+
+
+
