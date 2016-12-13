@@ -13,4 +13,18 @@ namespace :animals_complete do
 		end
 	end
 
+	desc "Crea un usuario Default"
+	task :create_user_default => :environment do
+			if Doctor.exists?(name: 'Hospital')
+				puts "El usuario Default ya existe (Email: Hospital@graciasgochez Pass: doctor)"
+			else
+				un = Doctor.new
+				un.name = "Hospital"
+				un.email = "Hospital@graciasgochez"
+				un.password = "doctor"
+				un.save
+				puts "Se creo el usuario Default exitosamente (Email: Hospital@graciasgochez Pass: doctor)"
+			end
+	end
+
 end
