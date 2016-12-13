@@ -61841,3 +61841,1523 @@ Processing by DoctorsController#show as HTML
   Rendered doctors/show.html.erb within layouts/application (175.4ms)
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
 Completed 200 OK in 432ms (Views: 407.5ms | ActiveRecord: 21.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 00:31:32 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 316ms (Views: 314.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 00:31:33 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 210ms (Views: 210.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 00:31:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 00:31:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 00:31:34 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 00:31:34 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 00:31:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 00:31:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 00:31:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 00:31:35 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 00:31:35 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 00:31:39 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 269ms (Views: 267.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 00:31:41 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 215ms (Views: 214.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 00:31:43 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 197ms (Views: 196.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 00:31:45 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (0.2ms)
+  Rendered doctors/_form.html.erb (1.1ms)
+  Rendered doctors/new.html.erb within layouts/application (120.6ms)
+Completed 200 OK in 332ms (Views: 330.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 00:32:00 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O+d1meP0cEG8hCZOioe6k1TB2ECiDFUWXMm6Lxv+u5I=", "doctor"=>{"name"=>"rudy", "email"=>"rudy@rudy.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mDoctor Exists (3.4ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'rudy@rudy.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (9.9ms)[0m  INSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Tue, 13 Dec 2016 00:32:00 UTC +00:00], ["email", "rudy@rudy.com"], ["name", "rudy"], ["password_digest", "$2a$10$8AQyCwshj5NbbMWN4e74/umq89blLIwmIopvXANeFq1PvTjTEBD6."], ["updated_at", Tue, 13 Dec 2016 00:32:00 UTC +00:00]]
+  [1m[36m (6.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 180ms (ActiveRecord: 19.6ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 00:32:00 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 00:32:00 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 201ms (Views: 200.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:01 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 00:32:01 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 00:32:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:02 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:02 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:02 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:02 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 00:32:02 +0000
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 00:32:13 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O+d1meP0cEG8hCZOioe6k1TB2ECiDFUWXMm6Lxv+u5I=", "session"=>{"email"=>"rudy@asas", "password"=>"[FILTERED]"}}
+  [1m[35mDoctor Load (4.5ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'rudy@asas' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 10ms (ActiveRecord: 4.5ms)
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 00:32:14 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O+d1meP0cEG8hCZOioe6k1TB2ECiDFUWXMm6Lxv+u5I=", "session"=>{"email"=>"rudy@asas", "password"=>"[FILTERED]"}}
+  [1m[36mDoctor Load (2.9ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'rudy@asas' LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 7ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 00:32:14 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 208ms (Views: 207.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:15 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 00:32:15 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 00:32:15 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:15 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:16 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 00:32:16 +0000
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 00:32:26 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O+d1meP0cEG8hCZOioe6k1TB2ECiDFUWXMm6Lxv+u5I=", "session"=>{"email"=>"rudy@rudy.com", "password"=>"[FILTERED]"}}
+  [1m[35mDoctor Load (2.5ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'rudy@rudy.com' LIMIT 1
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 144ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 00:32:26 +0000
+Processing by DoctorsController#show as HTML
+  [1m[36mDoctor Load (3.3ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (2.7ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 2]]
+  [1m[35mAppointment Exists (2.4ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1  [["doctor_id", 2]]
+  Rendered doctors/_doctor_appointments.html.erb (4.3ms)
+  Rendered doctors/show.html.erb within layouts/application (78.9ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 306ms (Views: 292.7ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:27 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 00:32:27 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 00:32:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:27 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:27 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 00:32:28 +0000
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 00:32:36 +0000
+Processing by DoctorsController#show as HTML
+  [1m[35mDoctor Load (4.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.2ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (3.9ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 2]]
+  [1m[36mAppointment Exists (5.5ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 2]]
+  Rendered doctors/_doctor_appointments.html.erb (8.7ms)
+  Rendered doctors/show.html.erb within layouts/application (115.9ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 438ms (Views: 417.3ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/edit_profile" for 10.0.2.2 at 2016-12-13 00:32:45 +0000
+Processing by DoctorsController#edit as HTML
+  [1m[36mDoctor Load (2.9ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered doctors/_form.html.erb (1.0ms)
+  Rendered doctors/edit.html.erb within layouts/application (120.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 366ms (Views: 359.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/doctors/2" for 10.0.2.2 at 2016-12-13 00:32:48 +0000
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mDoctor Load (3.5ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (2.3ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 2]]
+  [1m[36mAppointment Exists (2.2ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 2]]
+  Rendered doctors/_doctor_appointments.html.erb (3.9ms)
+  Rendered doctors/show.html.erb within layouts/application (70.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 287ms (Views: 274.0ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 00:32:51 +0000
+Processing by PetsController#index as HTML
+  [1m[36mDoctor Load (3.3ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPet Load (2.6ms)[0m  SELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC
+  [1m[36mAnimal Load (3.2ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pets/_pet.html.erb (23.8ms)
+  Rendered pets/index.html.erb within layouts/application (93.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 336ms (Views: 323.8ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/animals" for 10.0.2.2 at 2016-12-13 00:32:53 +0000
+Processing by AnimalsController#index as HTML
+  [1m[36mDoctor Load (5.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mAnimal Load (2.4ms)[0m  SELECT "animals".* FROM "animals" ORDER BY "animals"."name" ASC
+  Rendered animals/_animal.html.erb (2.8ms)
+  Rendered animals/index.html.erb within layouts/application (70.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 387ms (Views: 372.4ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 00:33:01 +0000
+Processing by DoctorsController#show as HTML
+  [1m[35mDoctor Load (2.8ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (3.1ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 2]]
+  [1m[36mAppointment Exists (3.0ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 2]]
+  Rendered doctors/_doctor_appointments.html.erb (5.5ms)
+  Rendered doctors/show.html.erb within layouts/application (89.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 317ms (Views: 305.6ms | ActiveRecord: 9.0ms)
+
+
+Started DELETE "/logout" for 10.0.2.2 at 2016-12-13 00:33:13 +0000
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"O+d1meP0cEG8hCZOioe6k1TB2ECiDFUWXMm6Lxv+u5I="}
+  [1m[36mDoctor Load (5.6ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 00:33:14 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 206ms (Views: 205.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 00:33:14 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 00:33:14 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:14 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:15 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:15 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:15 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 00:33:17 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 210ms (Views: 209.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 00:33:25 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LihhHgM02hzrnLoUkYkh3YXErD/cv5VWwfvxj4Uv5n8=", "session"=>{"email"=>"kevin@chinchilla.com", "password"=>"[FILTERED]"}}
+  [1m[35mDoctor Load (5.2ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'kevin@chinchilla.com' LIMIT 1
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 200ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 00:33:25 +0000
+Processing by DoctorsController#show as HTML
+  [1m[36mDoctor Load (3.5ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.4ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (2.2ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 1]]
+  [1m[35mAppointment Exists (4.6ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1  [["doctor_id", 1]]
+  [1m[36mAppointment Load (14.3ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 1]]
+  [1m[35mPet Load (2.6ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (11.4ms)
+  Rendered doctors/_doctor_appointments.html.erb (135.5ms)
+  Rendered doctors/show.html.erb within layouts/application (214.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 488ms (Views: 454.3ms | ActiveRecord: 27.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 00:33:26 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 00:33:26 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:27 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 00:33:27 +0000
+
+
+Started GET "/pets/1/appointments/1" for 10.0.2.2 at 2016-12-13 00:33:47 +0000
+Processing by AppointmentsController#show as HTML
+  Parameters: {"pet_id"=>"1", "id"=>"1"}
+  [1m[36mDoctor Load (3.3ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPet Load (3.2ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAppointment Load (2.9ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/show.html.erb within layouts/application (3.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 320ms (Views: 298.0ms | ActiveRecord: 9.5ms)
+
+
+Started GET "/pets/1/appointments/1/edit" for 10.0.2.2 at 2016-12-13 00:33:49 +0000
+Processing by AppointmentsController#edit as HTML
+  Parameters: {"pet_id"=>"1", "id"=>"1"}
+  [1m[35mDoctor Load (3.2ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (4.6ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAppointment Load (7.7ms)[0m  SELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered appointments/_form.html.erb (1.5ms)
+  Rendered appointments/edit.html.erb within layouts/application (153.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 455ms (Views: 430.9ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-13 00:33:53 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoctor Load (5.9ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPet Load (3.5ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAnimal Load (3.6ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (6.0ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?  [["pet_id", 1]]
+  [1m[36mAppointment Exists (4.7ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1[0m  [["pet_id", 1]]
+  [1m[35mAppointment Load (2.7ms)[0m  SELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?  [["pet_id", 1]]
+  [1m[36mPet Load (2.9ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (17.6ms)
+  Rendered pets/_pet_appointments.html.erb (90.2ms)
+  Rendered pets/show.html.erb within layouts/application (183.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 463ms (Views: 428.2ms | ActiveRecord: 29.6ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 00:33:57 +0000
+Processing by DoctorsController#show as HTML
+  [1m[36mDoctor Load (2.6ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (2.6ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 1]]
+  [1m[35mAppointment Exists (4.7ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1  [["doctor_id", 1]]
+  [1m[36mAppointment Load (2.7ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 1]]
+  [1m[35mPet Load (5.1ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (10.1ms)
+  Rendered doctors/_doctor_appointments.html.erb (78.4ms)
+  Rendered doctors/show.html.erb within layouts/application (149.5ms)
+  [1m[35mCACHE (0.2ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 354ms (Views: 333.2ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:34:58 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (3.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.5ms)
+  [1m[35mDoctor Load (15.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 618ms (Views: 564.3ms | ActiveRecord: 19.2ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:35:00 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[36mDoctor Load (4.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 250ms (Views: 245.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:35:00 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:35:01 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:35:01 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:35:01 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:35:01 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:35:01 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:35:01 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:35:01 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 01:35:02 +0000
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:35:05 +0000
+Processing by PetsController#index as HTML
+  [1m[35mDoctor Load (3.9ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (4.1ms)[0m  [1mSELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC[0m
+  [1m[35mAnimal Load (3.5ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (209.7ms)
+  Rendered pets/index.html.erb within layouts/application (324.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 650ms (Views: 552.7ms | ActiveRecord: 19.4ms)
+
+
+Started GET "/pets/new" for 10.0.2.2 at 2016-12-13 01:35:07 +0000
+Processing by PetsController#new as HTML
+  [1m[35mDoctor Load (3.5ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered shared/_errors.html.erb (14.6ms)
+  [1m[36m (3.2ms)[0m  [1mSELECT "animals"."name", "animals"."id" FROM "animals"[0m
+  [1m[35m (2.9ms)[0m  SELECT "owners"."name", "owners"."id" FROM "owners"
+  Rendered pets/_form.html.erb (168.4ms)
+  Rendered pets/new.html.erb within layouts/application (328.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 574ms (Views: 558.8ms | ActiveRecord: 13.1ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:35:10 +0000
+Processing by PetsController#index as HTML
+  [1m[35mDoctor Load (4.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.3ms)[0m  [1mSELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC[0m
+  [1m[35mAnimal Load (2.4ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (18.0ms)
+  Rendered pets/index.html.erb within layouts/application (73.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 265ms (Views: 252.3ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-13 01:35:13 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDoctor Load (3.5ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (3.9ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAnimal Load (5.3ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (4.6ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mAppointment Exists (3.0ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 1]]
+  [1m[36mAppointment Load (3.2ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mPet Load (1.3ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (37.7ms)
+  Rendered pets/_pet_appointments.html.erb (154.3ms)
+  Rendered pets/show.html.erb within layouts/application (373.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 606ms (Views: 573.0ms | ActiveRecord: 29.2ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-13 01:35:17 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[35mDoctor Load (4.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (4.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered appointments/_form.html.erb (26.1ms)
+  Rendered appointments/new.html.erb within layouts/application (153.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 390ms (Views: 377.5ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-13 01:37:08 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[36mDoctor Load (3.7ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPet Load (4.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT Kevin Chinchilla,  FROM "owners"[0m
+SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"
+  Rendered appointments/_form.html.erb (85.7ms)
+  Rendered appointments/new.html.erb within layouts/application (198.5ms)
+Completed 500 Internal Server Error in 384ms
+
+ActionView::Template::Error (SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"):
+     8: </div>
+     9: <div class="form-group">
+    10: 	<%= f.label :doctor_id, "Doctor: " %> 
+    11: 	<%= f.select :owner_id, Owner.pluck(@current_user.name, @current_user.id), class: "form-control" %>
+    12: </div>
+    13: 
+  app/views/appointments/_form.html.erb:11:in `_app_views_appointments__form_html_erb___683734049_94193130'
+  app/views/appointments/new.html.erb:7:in `block in _app_views_appointments_new_html_erb___362852682_94582970'
+  app/views/appointments/new.html.erb:6:in `_app_views_appointments_new_html_erb___362852682_94582970'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.9ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-13 01:37:28 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[35mDoctor Load (2.9ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.4ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[35m (0.3ms)[0m  SELECT Kevin Chinchilla,  FROM "owners"
+SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"
+  Rendered appointments/_form.html.erb (57.4ms)
+  Rendered appointments/new.html.erb within layouts/application (155.6ms)
+Completed 500 Internal Server Error in 258ms
+
+ActionView::Template::Error (SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"):
+     8: </div>
+     9: <div class="form-group">
+    10: 	<%= f.label :doctor_id, "Doctor: " %> 
+    11: 	<%= f.select :doctor_id, Owner.pluck(@current_user.name, @current_user.id), class: "form-control" %>
+    12: </div>
+    13: 
+  app/views/appointments/_form.html.erb:11:in `_app_views_appointments__form_html_erb___683734049_89003500'
+  app/views/appointments/new.html.erb:7:in `block in _app_views_appointments_new_html_erb___362852682_94582970'
+  app/views/appointments/new.html.erb:6:in `_app_views_appointments_new_html_erb___362852682_94582970'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.1ms)
+
+
+Started GET "/pets/1/appointments" for 10.0.2.2 at 2016-12-13 01:37:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/pets/1/appointments"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (9.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (70.9ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-13 01:37:46 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[36mDoctor Load (2.4ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPet Load (2.4ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT Kevin Chinchilla,  FROM "owners"[0m
+SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"
+  Rendered appointments/_form.html.erb (54.0ms)
+  Rendered appointments/new.html.erb within layouts/application (121.5ms)
+Completed 500 Internal Server Error in 223ms
+
+ActionView::Template::Error (SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"):
+     8: </div>
+     9: <div class="form-group">
+    10: 	<%= f.label :doctor_id, "Doctor: " %> 
+    11: 	<%= f.select :doctor_id, Owner.pluck(@current_user.name, @current_user.id), class: "form-control" %>
+    12: </div>
+    13: 
+  app/views/appointments/_form.html.erb:11:in `_app_views_appointments__form_html_erb___683734049_89003500'
+  app/views/appointments/new.html.erb:7:in `block in _app_views_appointments_new_html_erb___362852682_94582970'
+  app/views/appointments/new.html.erb:6:in `_app_views_appointments_new_html_erb___362852682_94582970'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:37:49 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[35mDoctor Load (1.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 115ms (Views: 113.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:37:49 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  [1m[36mDoctor Load (1.6ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 115ms (Views: 113.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 01:37:50 +0000
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 01:37:52 +0000
+Processing by DoctorsController#show as HTML
+  [1m[35mDoctor Load (3.2ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (5.6ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 1]]
+  [1m[36mAppointment Exists (2.5ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 1]]
+  [1m[35mAppointment Load (3.1ms)[0m  SELECT "appointments".* FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 1]]
+  [1m[36mPet Load (2.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (5.3ms)
+  Rendered doctors/_doctor_appointments.html.erb (64.5ms)
+  Rendered doctors/show.html.erb within layouts/application (144.6ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 331ms (Views: 307.3ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:38:12 +0000
+Processing by PetsController#index as HTML
+  [1m[35mDoctor Load (2.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.4ms)[0m  [1mSELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC[0m
+  [1m[35mAnimal Load (2.2ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (16.2ms)
+  Rendered pets/index.html.erb within layouts/application (56.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 194ms (Views: 184.8ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-13 01:38:15 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDoctor Load (2.4ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.1ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAnimal Load (1.8ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (1.5ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mAppointment Exists (1.7ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 1]]
+  [1m[36mAppointment Load (1.7ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mPet Load (1.9ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (9.6ms)
+  Rendered pets/_pet_appointments.html.erb (49.0ms)
+  Rendered pets/show.html.erb within layouts/application (91.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 234ms (Views: 217.7ms | ActiveRecord: 13.1ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-13 01:38:20 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[35mDoctor Load (2.1ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.3ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[35m (0.8ms)[0m  SELECT Kevin Chinchilla,  FROM "owners"
+SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"
+  Rendered appointments/_form.html.erb (47.2ms)
+  Rendered appointments/new.html.erb within layouts/application (142.5ms)
+Completed 500 Internal Server Error in 258ms
+
+ActionView::Template::Error (SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"):
+     8: </div>
+     9: <div class="form-group">
+    10: 	<%= f.label :doctor_id, "Doctor: " %> 
+    11: 	<%= f.select :doctor_id, Owner.pluck(@current_user.name, @current_user.id), class: "form-control" %>
+    12: </div>
+    13: 
+  app/views/appointments/_form.html.erb:11:in `_app_views_appointments__form_html_erb___683734049_89003500'
+  app/views/appointments/new.html.erb:7:in `block in _app_views_appointments_new_html_erb___362852682_94582970'
+  app/views/appointments/new.html.erb:6:in `_app_views_appointments_new_html_erb___362852682_94582970'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/pets/1/appointments" for 10.0.2.2 at 2016-12-13 01:46:05 +0000
+
+ActionController::RoutingError (No route matches [GET] "/pets/1/appointments"):
+  actionpack (4.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.0.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.0.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.4) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.4) lib/rails/engine.rb:511:in `call'
+  railties (4.0.4) lib/rails/application.rb:97:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (30.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:46:09 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[36mDoctor Load (2.4ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 152ms (Views: 144.2ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:46:09 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:46:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:46:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:46:10 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:46:10 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:46:10 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:46:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:46:10 +0000
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 01:46:33 +0000
+Processing by DoctorsController#show as HTML
+  [1m[35mDoctor Load (2.4ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (2.3ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 1]]
+  [1m[36mAppointment Exists (2.1ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 1]]
+  [1m[35mAppointment Load (8.5ms)[0m  SELECT "appointments".* FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 1]]
+  [1m[36mPet Load (3.8ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (65.3ms)
+  Rendered doctors/_doctor_appointments.html.erb (127.8ms)
+  Rendered doctors/show.html.erb within layouts/application (209.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 353ms (Views: 324.9ms | ActiveRecord: 24.8ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:46:39 +0000
+Processing by PetsController#index as HTML
+  [1m[35mDoctor Load (2.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.0ms)[0m  [1mSELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC[0m
+  [1m[35mAnimal Load (1.8ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (50.8ms)
+  Rendered pets/index.html.erb within layouts/application (92.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 220ms (Views: 210.6ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-13 01:46:47 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDoctor Load (2.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.4ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAnimal Load (2.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (2.3ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mAppointment Exists (1.7ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 1]]
+  [1m[36mAppointment Load (1.5ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mPet Load (1.9ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (15.1ms)
+  Rendered pets/_pet_appointments.html.erb (66.5ms)
+  Rendered pets/show.html.erb within layouts/application (123.4ms)
+  [1m[36mCACHE (0.2ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 267ms (Views: 249.9ms | ActiveRecord: 14.8ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-13 01:46:50 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[35mDoctor Load (1.7ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (1.9ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[35m (0.3ms)[0m  SELECT Kevin Chinchilla,  FROM "owners"
+SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"
+  Rendered appointments/_form.html.erb (89.2ms)
+  Rendered appointments/new.html.erb within layouts/application (161.2ms)
+Completed 500 Internal Server Error in 268ms
+
+ActionView::Template::Error (SQLite3::SQLException: unrecognized token: "": SELECT Kevin Chinchilla,  FROM "owners"):
+     8: </div>
+     9: <div class="form-group">
+    10: 	<%= f.label :doctor_id, "Doctor: " %> 
+    11: 	<%= f.select :doctor_id, Owner.pluck(@current_user.name, @current_user.id), class: "form-control" %>
+    12: </div>
+  app/views/appointments/_form.html.erb:11:in `_app_views_appointments__form_html_erb___683734049_94384560'
+  app/views/appointments/new.html.erb:7:in `block in _app_views_appointments_new_html_erb___362852682_94582970'
+  app/views/appointments/new.html.erb:6:in `_app_views_appointments_new_html_erb___362852682_94582970'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.8ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-13 01:47:07 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[36mDoctor Load (2.6ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPet Load (2.4ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered appointments/_form.html.erb (1.0ms)
+  Rendered appointments/new.html.erb within layouts/application (84.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 246ms (Views: 234.0ms | ActiveRecord: 5.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:47:07 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:47:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:08 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:08 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:08 +0000
+
+
+Started POST "/pets/1/appointments" for 10.0.2.2 at 2016-12-13 01:47:23 +0000
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LihhHgM02hzrnLoUkYkh3YXErD/cv5VWwfvxj4Uv5n8=", "appointment"=>{"description"=>"Gatito come botones ataca de nuevo", "amount"=>"3"}, "pet_id"=>"1"}
+  [1m[35mDoctor Load (2.8ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.8ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (7.5ms)[0m  [1mINSERT INTO "appointments" ("amount", "created_at", "description", "doctor_id", "pet_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["amount", #<BigDecimal:a5fcc38,'0.3E1',9(18)>], ["created_at", Tue, 13 Dec 2016 01:47:23 UTC +00:00], ["description", "Gatito come botones ataca de nuevo"], ["doctor_id", 1], ["pet_id", 1], ["updated_at", Tue, 13 Dec 2016 01:47:23 UTC +00:00]]
+  [1m[35m (4.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/pets/1
+Completed 302 Found in 27ms (ActiveRecord: 17.8ms)
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-13 01:47:23 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoctor Load (2.7ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mPet Load (2.6ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAnimal Load (2.1ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (2.5ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?  [["pet_id", 1]]
+  [1m[36mAppointment Exists (1.7ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1[0m  [["pet_id", 1]]
+  [1m[35mAppointment Load (1.8ms)[0m  SELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?  [["pet_id", 1]]
+  [1m[36mPet Load (2.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (10.5ms)
+  Rendered pets/_pet_appointments.html.erb (55.1ms)
+  Rendered pets/show.html.erb within layouts/application (105.1ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 252ms (Views: 233.8ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:24 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:47:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:47:24 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:24 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:47:24 +0000
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-13 01:53:01 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDoctor Load (2.9ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (2.7ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAnimal Load (2.9ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (1.7ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mAppointment Exists (2.7ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 1]]
+  [1m[36mAppointment Load (1.7ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mPet Load (2.3ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (25.6ms)
+  Rendered pets/_pet_appointments.html.erb (76.8ms)
+  Rendered pets/show.html.erb within layouts/application (231.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 537ms (Views: 406.0ms | ActiveRecord: 31.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:53:02 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:53:02 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:03 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:03 +0000
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 01:53:04 +0000
+Processing by DoctorsController#show as HTML
+  [1m[36mDoctor Load (5.7ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (1.8ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 1]]
+  [1m[35mAppointment Exists (1.6ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1  [["doctor_id", 1]]
+  [1m[36mAppointment Load (1.6ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 1]]
+  [1m[35mPet Load (2.2ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (7.4ms)
+  Rendered doctors/_doctor_appointments.html.erb (48.9ms)
+  Rendered doctors/show.html.erb within layouts/application (102.0ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 283ms (Views: 261.8ms | ActiveRecord: 13.0ms)
+
+
+Started DELETE "/logout" for 10.0.2.2 at 2016-12-13 01:53:06 +0000
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LihhHgM02hzrnLoUkYkh3YXErD/cv5VWwfvxj4Uv5n8="}
+  [1m[35mDoctor Load (3.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:53:06 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 229ms (Views: 228.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:53:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:53:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:07 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:07 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:08 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 01:53:09 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (66.6ms)
+Completed 200 OK in 294ms (Views: 293.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 01:53:16 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ffFwVH4vwHdq9BTq65vH7G6IH/MexUENpl8CGWIyzqE=", "session"=>{"email"=>"rudy@rudy.com", "password"=>"[FILTERED]"}}
+  [1m[36mDoctor Load (3.1ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'rudy@rudy.com' LIMIT 1[0m
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 150ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 01:53:16 +0000
+Processing by DoctorsController#show as HTML
+  [1m[35mDoctor Load (3.3ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (2.3ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 2]]
+  [1m[36mAppointment Exists (2.2ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 2]]
+  Rendered doctors/_doctor_appointments.html.erb (3.8ms)
+  Rendered doctors/show.html.erb within layouts/application (60.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 234ms (Views: 222.0ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:53:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:53:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:17 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:17 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:17 +0000
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 01:53:19 +0000
+Processing by DoctorsController#show as HTML
+  [1m[36mDoctor Load (2.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (1.5ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 2]]
+  [1m[35mAppointment Exists (1.9ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1  [["doctor_id", 2]]
+  Rendered doctors/_doctor_appointments.html.erb (3.1ms)
+  Rendered doctors/show.html.erb within layouts/application (42.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 167ms (Views: 159.1ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:53:20 +0000
+Processing by PetsController#index as HTML
+  [1m[35mDoctor Load (2.5ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mPet Load (2.2ms)[0m  [1mSELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC[0m
+  [1m[35mAnimal Load (1.9ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (12.5ms)
+  Rendered pets/index.html.erb within layouts/application (54.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 201ms (Views: 192.7ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/animals" for 10.0.2.2 at 2016-12-13 01:53:21 +0000
+Processing by AnimalsController#index as HTML
+  [1m[35mDoctor Load (3.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mAnimal Load (3.3ms)[0m  [1mSELECT "animals".* FROM "animals" ORDER BY "animals"."name" ASC[0m
+  Rendered animals/_animal.html.erb (3.7ms)
+  Rendered animals/index.html.erb within layouts/application (72.4ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 306ms (Views: 295.9ms | ActiveRecord: 6.9ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:53:22 +0000
+Processing by PetsController#index as HTML
+  [1m[36mDoctor Load (3.6ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPet Load (3.1ms)[0m  SELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC
+  [1m[36mAnimal Load (3.2ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pets/_pet.html.erb (19.2ms)
+  Rendered pets/index.html.erb within layouts/application (86.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 290ms (Views: 276.4ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 01:53:24 +0000
+Processing by DoctorsController#show as HTML
+  [1m[36mDoctor Load (2.5ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (2.7ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 2]]
+  [1m[35mAppointment Exists (2.6ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1  [["doctor_id", 2]]
+  Rendered doctors/_doctor_appointments.html.erb (4.3ms)
+  Rendered doctors/show.html.erb within layouts/application (68.5ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 266ms (Views: 255.1ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 01:53:29 +0000
+Processing by DoctorsController#show as HTML
+  [1m[35mDoctor Load (3.5ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (7.3ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 2]]
+  [1m[36mAppointment Exists (2.8ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 2]]
+  Rendered doctors/_doctor_appointments.html.erb (4.6ms)
+  Rendered doctors/show.html.erb within layouts/application (79.3ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 307ms (Views: 290.0ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:53:30 +0000
+Processing by PetsController#index as HTML
+  [1m[36mDoctor Load (3.6ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPet Load (3.2ms)[0m  SELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC
+  [1m[36mAnimal Load (3.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.2ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pets/_pet.html.erb (19.3ms)
+  Rendered pets/index.html.erb within layouts/application (87.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 308ms (Views: 295.1ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/pets/new" for 10.0.2.2 at 2016-12-13 01:53:31 +0000
+Processing by PetsController#new as HTML
+  [1m[36mDoctor Load (3.9ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  [1m[35m (3.3ms)[0m  SELECT "animals"."name", "animals"."id" FROM "animals"
+  [1m[36m (3.7ms)[0m  [1mSELECT "owners"."name", "owners"."id" FROM "owners"[0m
+  Rendered pets/_form.html.erb (86.7ms)
+  Rendered pets/new.html.erb within layouts/application (208.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 442ms (Views: 425.0ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:53:33 +0000
+Processing by PetsController#index as HTML
+  [1m[36mDoctor Load (3.1ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mPet Load (2.1ms)[0m  SELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC
+  [1m[36mAnimal Load (2.3ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pets/_pet.html.erb (14.4ms)
+  Rendered pets/index.html.erb within layouts/application (64.8ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 251ms (Views: 240.9ms | ActiveRecord: 7.6ms)
+
+
+Started DELETE "/logout" for 10.0.2.2 at 2016-12-13 01:53:35 +0000
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ffFwVH4vwHdq9BTq65vH7G6IH/MexUENpl8CGWIyzqE="}
+  [1m[36mDoctor Load (2.5ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 2]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:53:35 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 132ms (Views: 131.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:53:36 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:53:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:36 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:36 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:53:36 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 01:53:38 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 119ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 01:54:10 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 231ms (Views: 230.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 01:54:18 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MtA4EOLgtk/OBSO5hVFHISD2ysCP2a1vPBC0jMOTM/s=", "session"=>{"email"=>"kevin@chinchilla.com", "password"=>"[FILTERED]"}}
+  [1m[35mDoctor Load (3.3ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'kevin@chinchilla.com' LIMIT 1
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 124ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 01:54:18 +0000
+Processing by DoctorsController#show as HTML
+  [1m[36mDoctor Load (2.2ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (1.5ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 1]]
+  [1m[35mAppointment Exists (1.5ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1  [["doctor_id", 1]]
+  [1m[36mAppointment Load (1.8ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 1]]
+  [1m[35mPet Load (1.6ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (6.7ms)
+  Rendered doctors/_doctor_appointments.html.erb (49.2ms)
+  Rendered doctors/show.html.erb within layouts/application (89.8ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 222ms (Views: 208.9ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:54:18 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:54:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:54:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:54:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:54:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:54:19 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:54:19 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:54:19 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 01:54:19 +0000
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 01:54:34 +0000
+Processing by PetsController#index as HTML
+  [1m[35mDoctor Load (2.8ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mPet Load (3.6ms)[0m  [1mSELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC[0m
+  [1m[35mAnimal Load (2.7ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (18.4ms)
+  Rendered pets/index.html.erb within layouts/application (86.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 297ms (Views: 285.3ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/animals" for 10.0.2.2 at 2016-12-13 01:54:35 +0000
+Processing by AnimalsController#index as HTML
+  [1m[35mDoctor Load (3.2ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mAnimal Load (1.6ms)[0m  [1mSELECT "animals".* FROM "animals" ORDER BY "animals"."name" ASC[0m
+  Rendered animals/_animal.html.erb (2.0ms)
+  Rendered animals/index.html.erb within layouts/application (39.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 191ms (Views: 182.7ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/owners" for 10.0.2.2 at 2016-12-13 01:54:36 +0000
+Processing by OwnersController#index as HTML
+  [1m[36mDoctor Load (2.5ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mOwner Load (1.6ms)[0m  SELECT "owners".* FROM "owners" ORDER BY "owners"."id" ASC
+  Rendered owners/_owner.html.erb (1.7ms)
+  Rendered owners/index.html.erb within layouts/application (47.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 174ms (Views: 168.4ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:54:37 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[35mDoctor Load (2.5ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 172ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    46:       <li>
+    47:         <%= link_to profile_path do %>
+    48:           <span class="fa fa-user-o"></span>
+    49:           Perfil - <%= @current_user.name %>
+    50:         <% end %>
+    51:       </li>
+    52: 
+  app/views/layouts/application.html.erb:49:in `block in _app_views_layouts_application_html_erb___159802766_95368640'
+  app/views/layouts/application.html.erb:47:in `_app_views_layouts_application_html_erb___159802766_95368640'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.2ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 01:54:59 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  [1m[36mDoctor Load (2.5ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 177ms (Views: 173.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 01:54:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 01:54:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 01:55:00 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 01:55:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 01:55:00 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 01:55:00 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 01:55:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 01:55:00 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 01:55:00 +0000

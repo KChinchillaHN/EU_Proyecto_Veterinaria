@@ -7,7 +7,8 @@ class AppointmentsController < ApplicationController
   def create
   	@pet = Pet.find(params[:pet_id])
   	@appointment = @pet.appointments.build(appointment_params)
-  	if @appointment.save
+  	@appointment.doctor = @current_user
+    if @appointment.save
   		redirect_to @pet
   	else
   		render :new

@@ -6,14 +6,15 @@ EUProVeterinaria::Application.routes.draw do
   # You can have the root of your site routed with "root"
 root 'welcome#index'
 resources :pets do
-  resources :appointments, except: [:index,:delete]
+    resources :appointments, except: [:index,:delete]
 end
 
-resources :owners
+resources :owners do
+  get :pets, on: :member
+end
+
 resources :animals
 resources :doctors
-
-get "/owner/pets" => "owners#owner_pets"
 
 get "/login" => "sessions#new"
 post "/login" => "sessions#create"
