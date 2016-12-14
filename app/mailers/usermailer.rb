@@ -12,4 +12,9 @@ class Usermailer < ActionMailer::Base
     mail(to: @user.email, subject: 'Nueva Cita Programada')
   end
 
+  def notificate_user_update(user)
+    @user = user
+    mail(to: @user.email, subject: 'Actualizacion de Informacion')
+  end
+
 end

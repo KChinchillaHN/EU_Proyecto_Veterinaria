@@ -27,6 +27,7 @@ class DoctorsController < ApplicationController
     @doctor = Doctor.find(@current_user.id)
 
     if @doctor.update_attributes(doctor_params)
+      Usermailer.notificate_user_update(@doctor).deliver
       redirect_to profile_path
     else
        render :edit
