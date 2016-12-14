@@ -8,7 +8,9 @@ class AppointmentsController < ApplicationController
   	@pet = Pet.find(params[:pet_id])
   	@appointment = @pet.appointments.build(appointment_params)
   	@appointment.doctor = @current_user
+    @doctor = @current_user
     if @appointment.save
+      Usermailer.create_appointment(@doctor, @appointment, @pet).deliver
   		redirect_to @pet
   	else
   		render :new

@@ -11,6 +11,7 @@ class DoctorsController < ApplicationController
 	def create
 	@doctor = Doctor.new(doctor_params)
   	if @doctor.save 
+      Usermailer.welcome_email(@doctor).deliver
   		redirect_to profile_path, notice: "El Doctor se agrego exitosamente" 
   	else
   		flash[:error] = "No se pudo registrar el doctor, Favor corregir los siguientes errores: "

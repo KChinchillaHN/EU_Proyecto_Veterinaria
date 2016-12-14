@@ -68454,3 +68454,2587 @@ Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 04:59:19 
   [1m[36mDoctor Load (2.4ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", "Hospital@graciasgochez"]]
   [1m[36mDoctor Exists (5.2ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."name" = 'Hospital' LIMIT 1[0m
   [1m[36mDoctor Exists (4.8ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."name" = 'Hospital' LIMIT 1[0m
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:49:23 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 663ms (Views: 609.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:49:26 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 172ms (Views: 171.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 18:49:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 18:49:26 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 18:49:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 18:49:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 18:49:27 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 18:49:27 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 18:49:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 18:49:28 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 18:49:28 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:57:13 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 423ms (Views: 385.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:14 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 18:57:15 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:15 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 18:57:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:15 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:15 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:15 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 18:57:16 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:57:20 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 161ms (Views: 160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:20 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 18:57:20 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:21 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 18:57:21 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 18:57:21 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:57:22 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 141ms (Views: 140.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 18:57:24 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (290.9ms)
+Completed 200 OK in 450ms (Views: 449.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:57:26 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 151ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:58:23 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 159ms (Views: 158.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:24 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:24 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 18:58:24 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 18:58:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:24 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:24 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:58:26 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 131ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:26 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 18:58:26 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 18:58:27 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:27 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:27 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:58:29 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 158ms (Views: 157.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:58:42 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (3.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 522ms (Views: 487.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 18:58:43 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 133ms (Views: 132.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:44 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 18:58:44 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 18:58:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:44 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:44 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 18:58:44 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 18:58:45 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 18:59:10 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 169ms (Views: 168.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 19:01:38 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 154ms (Views: 153.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:01:38 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:01:38 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:01:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:01:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:01:39 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:01:39 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:01:39 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:01:39 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 19:01:40 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 143ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 19:01:42 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 149ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 19:02:03 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "session"=>{"email"=>"kchinchillahn@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[35mDoctor Load (3.4ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'kchinchillahn@hotmail.com' LIMIT 1
+Redirected to http://localhost:3000/login
+Completed 302 Found in 100ms (ActiveRecord: 7.7ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 19:02:04 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 257ms (Views: 256.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:02:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:02:05 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:02:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:02:05 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:02:05 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:02:06 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:02:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:02:06 +0000
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 19:02:09 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (46.0ms)
+  Rendered doctors/_form.html.erb (1.9ms)
+  Rendered doctors/new.html.erb within layouts/application (214.4ms)
+Completed 200 OK in 467ms (Views: 465.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:02:31 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"Kevin Josue", "email"=>"kchinchillahn@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (4.2ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kchinchillahn@hotmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (90.7ms)[0m  [1mINSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Dec 2016 19:02:32 UTC +00:00], ["email", "kchinchillahn@hotmail.com"], ["name", "Kevin Josue"], ["password_digest", "$2a$10$NhukCBEGRTntjnIPeEM.NecgeKz2YHxYDDUcFn5BQnrxGxVNMNmzm"], ["updated_at", Tue, 13 Dec 2016 19:02:32 UTC +00:00]]
+  [1m[35m (7.4ms)[0m  commit transaction
+Completed 500 Internal Server Error in 581ms
+
+NameError (uninitialized constant DoctorsController::UserMailer):
+  app/controllers/doctors_controller.rb:14:in `create'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.8ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:04:18 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"Kevin Josue", "email"=>"kchinchillahn@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (2.4ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kchinchillahn@hotmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered doctors/_form.html.erb (0.7ms)
+  Rendered doctors/new.html.erb within layouts/application (86.0ms)
+Completed 200 OK in 392ms (Views: 249.9ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:19 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:04:19 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:04:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:19 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:19 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:20 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:20 +0000
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:04:27 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"Kevin Josue", "email"=>"kchinchillahn@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mDoctor Exists (2.5ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kchinchillahn@hotmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered doctors/_form.html.erb (1.5ms)
+  Rendered doctors/new.html.erb within layouts/application (89.1ms)
+Completed 200 OK in 346ms (Views: 249.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:27 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:04:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:28 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:04:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:28 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:28 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:04:28 +0000
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:04:43 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"kol", "email"=>"kol@ko.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (2.6ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kol@ko.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Dec 2016 19:04:43 UTC +00:00], ["email", "kol@ko.com"], ["name", "kol"], ["password_digest", "$2a$10$9S0Wv3iLViOH/.pCLWWUCeJIDt1uc8POfQbGLLNEx.pJ.DVc3aMGC"], ["updated_at", Tue, 13 Dec 2016 19:04:43 UTC +00:00]]
+  [1m[35m (9.4ms)[0m  commit transaction
+Completed 500 Internal Server Error in 150ms
+
+NameError (uninitialized constant DoctorsController::UserMailer):
+  app/controllers/doctors_controller.rb:14:in `create'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:09:27 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"kol", "email"=>"kol@ko.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (3.0ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kol@ko.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered doctors/_form.html.erb (0.7ms)
+  Rendered doctors/new.html.erb within layouts/application (81.5ms)
+Completed 200 OK in 387ms (Views: 243.5ms | ActiveRecord: 9.6ms)
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:09:28 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:09:28 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:09:28 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:09:28 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:09:29 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:09:29 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:09:29 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:09:29 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 19:09:29 +0000
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:09:42 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"kol2", "email"=>"kol2@ko.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mDoctor Exists (2.8ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kol2@ko.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (4.9ms)[0m  INSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Tue, 13 Dec 2016 19:09:42 UTC +00:00], ["email", "kol2@ko.com"], ["name", "kol2"], ["password_digest", "$2a$10$J8AS6UWWQtisWscxsu5Xfe8D9WuAYRofVon.ytZ.RVj4.X4rVf3.q"], ["updated_at", Tue, 13 Dec 2016 19:09:42 UTC +00:00]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 128ms
+
+NameError (undefined local variable or method `usermailer' for #<DoctorsController:0xb5f15328>):
+  app/controllers/doctors_controller.rb:14:in `create'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.8ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:10:13 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"kol2", "email"=>"kol2@ko.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mDoctor Exists (4.3ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kol2@ko.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered doctors/_form.html.erb (0.8ms)
+  Rendered doctors/new.html.erb within layouts/application (81.9ms)
+Completed 200 OK in 378ms (Views: 228.2ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:10:14 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:10:14 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:10:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:10:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:10:15 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:10:15 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:10:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:10:15 +0000
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:10:24 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"kol3", "email"=>"kol3@ko.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (2.8ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kol3@ko.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.5ms)[0m  [1mINSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Dec 2016 19:10:24 UTC +00:00], ["email", "kol3@ko.com"], ["name", "kol3"], ["password_digest", "$2a$10$VxM1iQ.KTwA0o6Q4ERGAm.gKRdzptlh9vHdGPTGB9TWeFSwLZc.Ta"], ["updated_at", Tue, 13 Dec 2016 19:10:24 UTC +00:00]]
+  [1m[35m (4.2ms)[0m  commit transaction
+  Rendered usermailer/welcome_email.html.erb (40.6ms)
+Completed 500 Internal Server Error in 2121ms
+
+ActionView::Template::Error (undefined method `login' for #<Doctor:0xb59f9a24>):
+     7:     <h1>Welcome to example.com, <%= @user.name %></h1>
+     8:     <p>
+     9:       You have successfully signed up to example.com,
+    10:       your username is: <%= @user.login %>.<br>
+    11:     </p>
+    12:     <p>
+    13:       To login to the site, just follow this link: <%= @url %>.
+  app/views/usermailer/welcome_email.html.erb:10:in `_app_views_usermailer_welcome_email_html_erb___746113411__626201678'
+  app/mailers/usermailer.rb:6:in `welcome_email'
+  app/controllers/doctors_controller.rb:14:in `create'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.1ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:14:34 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"kol3", "email"=>"kol3@ko.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (3.3ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kol3@ko.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered shared/_errors.html.erb (0.4ms)
+  Rendered doctors/_form.html.erb (0.7ms)
+  Rendered doctors/new.html.erb within layouts/application (110.9ms)
+Completed 200 OK in 417ms (Views: 288.0ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:14:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:14:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:35 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:35 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:36 +0000
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:14:46 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"kol4", "email"=>"kol4@ko.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mDoctor Exists (2.3ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kol4@ko.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (4.6ms)[0m  INSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Tue, 13 Dec 2016 19:14:46 UTC +00:00], ["email", "kol4@ko.com"], ["name", "kol4"], ["password_digest", "$2a$10$blKUfy8z55axij959WmxyO8T2iEvlSFZTcW.J8XfZcpiwNy6iuLmu"], ["updated_at", Tue, 13 Dec 2016 19:14:46 UTC +00:00]]
+  [1m[36m (4.4ms)[0m  [1mcommit transaction[0m
+  Rendered usermailer/welcome_email.html.erb (0.5ms)
+  Rendered usermailer/welcome_email.text.erb (0.6ms)
+
+Sent mail to kol4@ko.com (62.5ms)
+Date: Tue, 13 Dec 2016 19:14:47 +0000
+From: veterinariachansey@hotmail.com
+To: kol4@ko.com
+Message-ID: <585048a76a54e_9cd2512b700285a8@precise32.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_585048a764d0a_9cd2512b70028438";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_585048a764d0a_9cd2512b70028438
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, kol4
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: kol4@ko.com.
+ 
+To login to the site, just follow this link: http://example.com/login.
+ 
+Thanks for joining and have a great day!
+----==_mimepart_585048a764d0a_9cd2512b70028438
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com, kol4</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: kol4@ko.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://example.com/login.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+----==_mimepart_585048a764d0a_9cd2512b70028438--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 695ms (ActiveRecord: 11.4ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 19:14:47 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 19:14:47 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 139ms (Views: 137.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:14:47 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:48 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:48 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:14:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:48 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:48 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:14:48 +0000
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 19:14:50 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered doctors/_form.html.erb (1.0ms)
+  Rendered doctors/new.html.erb within layouts/application (204.4ms)
+Completed 200 OK in 542ms (Views: 538.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 19:15:27 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "doctor"=>{"name"=>"KevinChi", "email"=>"kevinchinchilla@unitec.edu", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mDoctor Exists (16.3ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kevinchinchilla@unitec.edu' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (6.8ms)[0m  INSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Tue, 13 Dec 2016 19:15:27 UTC +00:00], ["email", "kevinchinchilla@unitec.edu"], ["name", "KevinChi"], ["password_digest", "$2a$10$tQzE0Zg5dzMnfNuFkRo3mOqCyFrFzktjpSbz4gafK2mlnTg8YkD2S"], ["updated_at", Tue, 13 Dec 2016 19:15:27 UTC +00:00]]
+  [1m[36m (10.8ms)[0m  [1mcommit transaction[0m
+  Rendered usermailer/welcome_email.html.erb (0.2ms)
+  Rendered usermailer/welcome_email.text.erb (0.1ms)
+
+Sent mail to kevinchinchilla@unitec.edu (17.6ms)
+Date: Tue, 13 Dec 2016 19:15:28 +0000
+From: veterinariachansey@hotmail.com
+To: kevinchinchilla@unitec.edu
+Message-ID: <585048d04e9a2_9cd25870d30287a1@precise32.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_585048d04c7a1_9cd25870d30286f3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_585048d04c7a1_9cd25870d30286f3
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, KevinChi
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: kevinchinchilla@unitec.edu.
+ 
+To login to the site, just follow this link: http://example.com/login.
+ 
+Thanks for joining and have a great day!
+----==_mimepart_585048d04c7a1_9cd25870d30286f3
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to example.com, KevinChi</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: kevinchinchilla@unitec.edu.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://example.com/login.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+----==_mimepart_585048d04c7a1_9cd25870d30286f3--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 1114ms (ActiveRecord: 34.1ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 19:15:28 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 19:15:28 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 354ms (Views: 353.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:15:29 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:15:29 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:15:29 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:15:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:15:30 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:15:30 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:15:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:15:31 +0000
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 19:16:38 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10=", "session"=>{"email"=>"kevinchinchilla@unitec.edu", "password"=>"[FILTERED]"}}
+  [1m[35mDoctor Load (3.4ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'kevinchinchilla@unitec.edu' LIMIT 1
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 98ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 19:16:39 +0000
+Processing by DoctorsController#show as HTML
+  [1m[36mDoctor Load (2.8ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36m (4.0ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?[0m  [["doctor_id", 9]]
+  [1m[35mAppointment Exists (6.2ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1  [["doctor_id", 9]]
+  Rendered doctors/_doctor_appointments.html.erb (11.6ms)
+  Rendered doctors/show.html.erb within layouts/application (444.8ms)
+  [1m[36mCACHE (0.8ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 9]]
+Completed 200 OK in 676ms (Views: 655.7ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 19:16:40 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 19:16:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 19:16:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 19:16:40 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 19:16:41 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 19:16:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 19:16:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 19:16:41 +0000
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:01:02 +0000
+Processing by DoctorsController#show as HTML
+  [1m[35mDoctor Load (2.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 9]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 9]]
+  [1m[35m (2.7ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 9]]
+  [1m[36mAppointment Exists (2.3ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 9]]
+  Rendered doctors/_doctor_appointments.html.erb (3.9ms)
+  Rendered doctors/show.html.erb within layouts/application (60.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 9]]
+Completed 200 OK in 260ms (Views: 249.3ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:01:02 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:01:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:03 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:03 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:04 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 23:01:04 +0000
+
+
+Started DELETE "/logout" for 10.0.2.2 at 2016-12-13 23:01:05 +0000
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kUcR7wiB3CpHP9ZDoHW7Zpl/vhIZcZC2gCP2hjmHL10="}
+  [1m[36mDoctor Load (3.5ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 9]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 23:01:05 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 185ms (Views: 183.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:01:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:06 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:01:06 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:06 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:01:07 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:01:09 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 181ms (Views: 180.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 23:01:10 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered doctors/_form.html.erb (0.9ms)
+  Rendered doctors/new.html.erb within layouts/application (99.2ms)
+Completed 200 OK in 291ms (Views: 290.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:02:08 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Memo", "email"=>"guillermojosesandovalcoello@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mDoctor Exists (3.6ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'guillermojosesandovalcoello@gmail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (7.0ms)[0m  INSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Tue, 13 Dec 2016 23:02:08 UTC +00:00], ["email", "guillermojosesandovalcoello@gmail.com"], ["name", "Memo"], ["password_digest", "$2a$10$5DzT7guGaJAgz0DcO7UqzeFY32cgsbZI7n9LAkfoEuzAOzy6jwace"], ["updated_at", Tue, 13 Dec 2016 23:02:08 UTC +00:00]]
+  [1m[36m (6.4ms)[0m  [1mcommit transaction[0m
+  Rendered usermailer/welcome_email.html.erb (0.8ms)
+  Rendered usermailer/welcome_email.text.erb (0.7ms)
+
+Sent mail to guillermojosesandovalcoello@gmail.com (11.1ms)
+Date: Tue, 13 Dec 2016 23:02:09 +0000
+From: veterinariachansey@hotmail.com
+To: guillermojosesandovalcoello@gmail.com
+Message-ID: <58507df11f16b_9cd252f9348289ca@precise32.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_58507df11d75e_9cd252f934828831";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_58507df11d75e_9cd252f934828831
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hola Memo, Bienvenido a la familia de Doctores de Veterinaria Chansey
+==================================================================================
+ 
+Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+El email ingresado es: guillermojosesandovalcoello@gmail.com.
+ 
+Eso es todo por ahora, Que tengas un excelente dia
+----==_mimepart_58507df11d75e_9cd252f934828831
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Memo, Bienvenido a la familia de Doctores de Veterinaria Chansey</h1>
+    <p>
+      Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+      El email ingresado es: guillermojosesandovalcoello@gmail.com.<br>
+    </p>
+
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+----==_mimepart_58507df11d75e_9cd252f934828831--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 737ms (ActiveRecord: 17.0ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:02:09 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:02:09 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 169ms (Views: 167.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:02:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:02:09 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:02:09 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:02:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:02:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:02:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:02:10 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:02:10 +0000
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 23:15:11 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered doctors/_form.html.erb (0.7ms)
+  Rendered doctors/new.html.erb within layouts/application (97.5ms)
+Completed 200 OK in 282ms (Views: 247.7ms | ActiveRecord: 3.8ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:15:24 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Jonathan", "email"=>"jonathansalazar96@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mDoctor Exists (5.9ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'jonathansalazar96@gmail.com' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (5.8ms)[0m  INSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)  [["created_at", Tue, 13 Dec 2016 23:15:24 UTC +00:00], ["email", "jonathansalazar96@gmail.com"], ["name", "Jonathan"], ["password_digest", "$2a$10$ndISuy69Etth3iFseSatDelICngv97OvmYzr3MmQ.b0cbMB8LDOTe"], ["updated_at", Tue, 13 Dec 2016 23:15:24 UTC +00:00]]
+  [1m[36m (7.3ms)[0m  [1mcommit transaction[0m
+  Rendered usermailer/welcome_email.html.erb (0.1ms)
+  Rendered usermailer/welcome_email.text.erb (0.1ms)
+
+Sent mail to jonathansalazar96@gmail.com (12.8ms)
+Date: Tue, 13 Dec 2016 23:15:25 +0000
+From: veterinariachansey@hotmail.com
+To: jonathansalazar96@gmail.com
+Message-ID: <5850810d77dcd_9cd4d5044029155@precise32.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5850810d76e18_9cd4d5044029021";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5850810d76e18_9cd4d5044029021
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hola Jonathan, Bienvenido a la familia de Doctores de Veterinaria Chansey
+==================================================================================
+ 
+Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+El email ingresado es: jonathansalazar96@gmail.com.
+ 
+Eso es todo por ahora, Que tengas un excelente dia
+----==_mimepart_5850810d76e18_9cd4d5044029021
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Jonathan, Bienvenido a la familia de Doctores de Veterinaria Chansey</h1>
+    <p>
+      Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+      El email ingresado es: jonathansalazar96@gmail.com.<br>
+    </p>
+
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+----==_mimepart_5850810d76e18_9cd4d5044029021--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 684ms (ActiveRecord: 19.1ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:15:25 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:15:25 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 156ms (Views: 155.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:15:25 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:15:26 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:15:26 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:15:26 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:15:26 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:15:26 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:15:26 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:15:26 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:26:16 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 164ms (Views: 163.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:26:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:26:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:17 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:18 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:18 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:18 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 23:26:18 +0000
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 23:26:19 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered doctors/_form.html.erb (0.7ms)
+  Rendered doctors/new.html.erb within layouts/application (85.9ms)
+Completed 200 OK in 290ms (Views: 249.6ms | ActiveRecord: 4.6ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:26:30 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Pol", "email"=>"kevinchinchilla@unitec.edu", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mDoctor Exists (2.7ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kevinchinchilla@unitec.edu' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_errors.html.erb (0.5ms)
+  Rendered doctors/_form.html.erb (1.2ms)
+  Rendered doctors/new.html.erb within layouts/application (115.3ms)
+Completed 200 OK in 416ms (Views: 309.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:31 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:26:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:26:31 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:32 +0000
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:26:48 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Pol", "email"=>"kevinchinchilla@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (2.8ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kevinchinchilla@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (6.8ms)[0m  [1mINSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Dec 2016 23:26:48 UTC +00:00], ["email", "kevinchinchilla@gmail.com"], ["name", "Pol"], ["password_digest", "$2a$10$5OPryGk2haN0mqct5ryaF./W8NMCjHgq/sihP9oC1/ICZ/jSelZ6W"], ["updated_at", Tue, 13 Dec 2016 23:26:48 UTC +00:00]]
+  [1m[35m (7.7ms)[0m  commit transaction
+  Rendered usermailer/welcome_email.html.erb (0.2ms)
+  Rendered usermailer/welcome_email.text.erb (0.1ms)
+
+Sent mail to kevinchinchilla@gmail.com (9.5ms)
+Date: Tue, 13 Dec 2016 23:26:49 +0000
+From: veterinariachansey@hotmail.com
+To: kevinchinchilla@gmail.com
+Message-ID: <585083b997f54_9cd2551bd6a29377@precise32.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_585083b9967b1_9cd2551bd6a292e3";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_585083b9967b1_9cd2551bd6a292e3
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hola Pol, Bienvenido a la familia de Doctores de Veterinaria Chansey
+==================================================================================
+ 
+Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+El email ingresado es: kevinchinchilla@gmail.com.
+ 
+Eso es todo por ahora, Que tengas un excelente dia
+----==_mimepart_585083b9967b1_9cd2551bd6a292e3
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Pol, Bienvenido a la familia de Doctores de Veterinaria Chansey</h1>
+    <p>
+      Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+      El email ingresado es: kevinchinchilla@gmail.com.<br>
+    </p>
+
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+----==_mimepart_585083b9967b1_9cd2551bd6a292e3--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 826ms (ActiveRecord: 17.6ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:26:49 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:26:49 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 149ms (Views: 148.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:26:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:26:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:50 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:50 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:26:51 +0000
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 23:28:14 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered doctors/_form.html.erb (0.7ms)
+  Rendered doctors/new.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 249ms (Views: 247.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:28:34 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Pol2", "email"=>"kevin@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (4.0ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kevin@hotmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Dec 2016 23:28:34 UTC +00:00], ["email", "kevin@hotmail.com"], ["name", "Pol2"], ["password_digest", "$2a$10$CEmbyPI17Y80ihEA5Yqbm.HcKMFxsw51HD3pnOE0/TGxkFVR8m4gm"], ["updated_at", Tue, 13 Dec 2016 23:28:34 UTC +00:00]]
+  [1m[35m (5.4ms)[0m  commit transaction
+  Rendered usermailer/welcome_email.html.erb (0.1ms)
+  Rendered usermailer/welcome_email.text.erb (0.1ms)
+
+Sent mail to kevin@hotmail.com (12.4ms)
+Date: Tue, 13 Dec 2016 23:28:35 +0000
+From: veterinariachansey@hotmail.com
+To: kevin@hotmail.com
+Message-ID: <58508423167d5_9cd251205442951@precise32.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_58508423149af_9cd2512054429435";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_58508423149af_9cd2512054429435
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hola Pol2, Bienvenido a la familia de Doctores de Veterinaria Chansey
+==================================================================================
+ 
+Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+El email ingresado es: kevin@hotmail.com.
+ 
+Eso es todo por ahora, Que tengas un excelente dia
+----==_mimepart_58508423149af_9cd2512054429435
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Pol2, Bienvenido a la familia de Doctores de Veterinaria Chansey</h1>
+    <p>
+      Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+      El email ingresado es: kevin@hotmail.com.<br>
+    </p>
+
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+----==_mimepart_58508423149af_9cd2512054429435--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 647ms (ActiveRecord: 15.3ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:28:35 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:28:35 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 149ms (Views: 148.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:28:35 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:28:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:28:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:28:35 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:28:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:28:36 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:28:36 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:28:36 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:39:55 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 206ms (Views: 205.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:39:55 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:39:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:39:56 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:39:56 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:39:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:39:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:39:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:39:56 +0000
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 23:40:02 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered doctors/_form.html.erb (2.4ms)
+  Rendered doctors/new.html.erb within layouts/application (118.6ms)
+Completed 200 OK in 312ms (Views: 311.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:40:19 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Pol", "email"=>"kevin10@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (3.0ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kevin10@hotmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (4.7ms)[0m  [1mINSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Dec 2016 23:40:20 UTC +00:00], ["email", "kevin10@hotmail.com"], ["name", "Pol"], ["password_digest", "$2a$10$65VyNjzCbBxAB4UWKsLKnuofw8f1ELJgQ43PyBa5CHjnIOO0nl7L2"], ["updated_at", Tue, 13 Dec 2016 23:40:20 UTC +00:00]]
+  [1m[35m (7.5ms)[0m  commit transaction
+  Rendered usermailer/welcome_email.html.erb (0.2ms)
+  Rendered usermailer/welcome_email.text.erb (0.1ms)
+
+Sent mail to kevin10@hotmail.com (11.5ms)
+Date: Tue, 13 Dec 2016 23:40:20 +0000
+From: veterinariachansey@hotmail.com
+To: kevin10@hotmail.com
+Message-ID: <585086e4bd8ff_9cd251d51e229761@precise32.mail>
+Subject: Welcome to My Awesome Site
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_585086e4ba40f_9cd251d51e22969e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_585086e4ba40f_9cd251d51e22969e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hola Pol, Bienvenido a la familia de Doctores de Veterinaria Chansey
+==================================================================================
+ 
+Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+El email ingresado es: kevin10@hotmail.com.
+ 
+Eso es todo por ahora, Que tengas un excelente dia
+----==_mimepart_585086e4ba40f_9cd251d51e22969e
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Pol, Bienvenido a la familia de Doctores de Veterinaria Chansey</h1>
+    <p>
+      Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+      El email ingresado es: kevin10@hotmail.com.<br>
+    </p>
+
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+----==_mimepart_585086e4ba40f_9cd251d51e22969e--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 654ms (ActiveRecord: 15.4ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:40:20 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:40:20 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 152ms (Views: 151.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:40:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:40:21 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:40:21 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:40:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:40:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:40:21 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:40:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:40:22 +0000
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 23:46:49 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (2.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 518ms (Views: 473.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 10.0.2.2 at 2016-12-13 23:46:51 +0000
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 164ms (Views: 163.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:46:52 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:46:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:46:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:46:52 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:46:52 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:46:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:46:53 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:46:53 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 23:46:53 +0000
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:46:57 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (50.2ms)
+Completed 200 OK in 215ms (Views: 213.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 23:46:59 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (11.0ms)
+  Rendered doctors/_form.html.erb (1.3ms)
+  Rendered doctors/new.html.erb within layouts/application (121.6ms)
+Completed 200 OK in 327ms (Views: 276.4ms | ActiveRecord: 4.3ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:47:30 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Pol25", "email"=>"kevin@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mDoctor Exists (2.4ms)[0m  [1mSELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kevin@hotmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered shared/_errors.html.erb (0.3ms)
+  Rendered doctors/_form.html.erb (1.6ms)
+  Rendered doctors/new.html.erb within layouts/application (105.4ms)
+Completed 200 OK in 423ms (Views: 269.4ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:47:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:47:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:47:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:47:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:47:31 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:47:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:47:32 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:47:32 +0000
+
+
+Started GET "/assets/fontawesome-webfont.woff2" for 10.0.2.2 at 2016-12-13 23:47:32 +0000
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:48:02 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Pol25", "email"=>"kevin25@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.9ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (3.1ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'kevin25@hotmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (34.4ms)[0m  [1mINSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Dec 2016 23:48:02 UTC +00:00], ["email", "kevin25@hotmail.com"], ["name", "Pol25"], ["password_digest", "$2a$10$G/Vqafb0Zm3yjffMuwfJzOZzk4FnVXSrLb1qrhNLL5S7/bErlKaSq"], ["updated_at", Tue, 13 Dec 2016 23:48:02 UTC +00:00]]
+  [1m[35m (8.5ms)[0m  commit transaction
+  Rendered usermailer/welcome_email.html.erb (0.4ms)
+  Rendered usermailer/welcome_email.text.erb (0.4ms)
+
+Sent mail to kevin25@hotmail.com (5878.5ms)
+Date: Tue, 13 Dec 2016 23:48:04 +0000
+From: veterinariachansey@hotmail.com
+To: kevin25@hotmail.com
+Message-ID: <585088b458453_ae05824d3a89841@precise32.mail>
+Subject: Bienvenido a la Familia Veterinaria
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_585088b452900_ae05824d3a897e0";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_585088b452900_ae05824d3a897e0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hola Pol25, Bienvenido a la familia de Doctores de Veterinaria Chansey
+==================================================================================
+ 
+Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+El email ingresado es: kevin25@hotmail.com.
+ 
+Eso es todo por ahora, Que tengas un excelente dia
+----==_mimepart_585088b452900_ae05824d3a897e0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Pol25, Bienvenido a la familia de Doctores de Veterinaria Chansey</h1>
+    <p>
+      Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+      El email ingresado es: kevin25@hotmail.com.<br>
+    </p>
+
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+----==_mimepart_585088b452900_ae05824d3a897e0--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 7783ms (ActiveRecord: 46.9ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:48:10 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:48:10 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 162ms (Views: 161.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:48:10 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:48:10 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:48:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:48:11 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:48:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:48:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:48:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:48:11 +0000
+
+
+Started GET "/doctors/new" for 10.0.2.2 at 2016-12-13 23:51:42 +0000
+Processing by DoctorsController#new as HTML
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered doctors/_form.html.erb (1.3ms)
+  Rendered doctors/new.html.erb within layouts/application (90.2ms)
+Completed 200 OK in 250ms (Views: 249.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/doctors" for 10.0.2.2 at 2016-12-13 23:52:08 +0000
+Processing by DoctorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "doctor"=>{"name"=>"Veterinaria", "email"=>"veterinariachansey@gmail.com", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mDoctor Exists (3.3ms)[0m  SELECT 1 AS one FROM "doctors" WHERE "doctors"."email" = 'veterinariachansey@gmail.com' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "doctors" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Dec 2016 23:52:09 UTC +00:00], ["email", "veterinariachansey@gmail.com"], ["name", "Veterinaria"], ["password_digest", "$2a$10$nxjG/xWU6dNyCLON4Y3u/u./b6IIW.LzR9eLlYdW1Mjx/S/C2pgKy"], ["updated_at", Tue, 13 Dec 2016 23:52:09 UTC +00:00]]
+  [1m[35m (6.0ms)[0m  commit transaction
+  Rendered usermailer/welcome_email.html.erb (0.2ms)
+  Rendered usermailer/welcome_email.text.erb (0.1ms)
+
+Sent mail to veterinariachansey@gmail.com (4255.6ms)
+Date: Tue, 13 Dec 2016 23:52:09 +0000
+From: veterinariachansey@hotmail.com
+To: veterinariachansey@gmail.com
+Message-ID: <585089a99b5bc_ae025167a6690015@precise32.mail>
+Subject: Bienvenido a la Familia Veterinaria
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_585089a9997b5_ae025167a6689988";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_585089a9997b5_ae025167a6689988
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hola Veterinaria, Bienvenido a la familia de Doctores de Veterinaria Chansey
+==================================================================================
+ 
+Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+El email ingresado es: veterinariachansey@gmail.com.
+ 
+Eso es todo por ahora, Que tengas un excelente dia
+----==_mimepart_585089a9997b5_ae025167a6689988
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Veterinaria, Bienvenido a la familia de Doctores de Veterinaria Chansey</h1>
+    <p>
+      Has ingresado exitosamente a la pagina: VeterinariaChansey.com,
+      El email ingresado es: veterinariachansey@gmail.com.<br>
+    </p>
+
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+----==_mimepart_585089a9997b5_ae025167a6689988--
+
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 4884ms (ActiveRecord: 14.8ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:52:13 +0000
+Processing by DoctorsController#show as HTML
+Redirected to http://localhost:3000/login
+Filter chain halted as :authenticate rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 10.0.2.2 at 2016-12-13 23:52:14 +0000
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 165ms (Views: 164.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:52:14 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:52:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:52:14 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:52:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:52:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:52:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:52:15 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:52:15 +0000
+
+
+Started POST "/login" for 10.0.2.2 at 2016-12-13 23:55:32 +0000
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "session"=>{"email"=>"kchinchillahn@hotmail.com", "password"=>"[FILTERED]"}}
+  [1m[36mDoctor Load (3.3ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."email" = 'kchinchillahn@hotmail.com' LIMIT 1[0m
+Redirected to http://localhost:3000/profile
+Completed 302 Found in 211ms (ActiveRecord: 12.3ms)
+
+
+Started GET "/profile" for 10.0.2.2 at 2016-12-13 23:55:33 +0000
+Processing by DoctorsController#show as HTML
+  [1m[35mDoctor Load (4.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (3.4ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."doctor_id" = ?  [["doctor_id", 4]]
+  [1m[36mAppointment Exists (2.6ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."doctor_id" = ? LIMIT 1[0m  [["doctor_id", 4]]
+  Rendered doctors/_doctor_appointments.html.erb (8.1ms)
+  Rendered doctors/show.html.erb within layouts/application (228.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 428ms (Views: 409.4ms | ActiveRecord: 14.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-13 23:55:33 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-13 23:55:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-13 23:55:34 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-13 23:55:34 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-13 23:55:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-13 23:55:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-13 23:55:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-13 23:55:34 +0000
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 23:55:38 +0000
+Processing by PetsController#index as HTML
+  [1m[36mDoctor Load (3.6ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (3.4ms)[0m  SELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC
+  [1m[36mAnimal Load (5.6ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (117.4ms)
+  Rendered pets/index.html.erb within layouts/application (208.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 506ms (Views: 434.9ms | ActiveRecord: 19.1ms)
+
+
+Started GET "/animals" for 10.0.2.2 at 2016-12-13 23:55:41 +0000
+Processing by AnimalsController#index as HTML
+  [1m[35mDoctor Load (3.1ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mAnimal Load (4.1ms)[0m  [1mSELECT "animals".* FROM "animals" ORDER BY "animals"."name" ASC[0m
+  Rendered animals/_animal.html.erb (2.8ms)
+  Rendered animals/index.html.erb within layouts/application (77.9ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 314ms (Views: 303.2ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-13 23:55:42 +0000
+Processing by PetsController#index as HTML
+  [1m[36mDoctor Load (4.2ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (3.0ms)[0m  SELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC
+  [1m[36mAnimal Load (5.4ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (23.7ms)
+  Rendered pets/index.html.erb within layouts/application (93.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 316ms (Views: 299.6ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/animals" for 10.0.2.2 at 2016-12-14 00:01:36 +0000
+Processing by AnimalsController#index as HTML
+  [1m[35mDoctor Load (5.3ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mAnimal Load (2.5ms)[0m  [1mSELECT "animals".* FROM "animals" ORDER BY "animals"."name" ASC[0m
+  Rendered animals/_animal.html.erb (2.5ms)
+  Rendered animals/index.html.erb within layouts/application (72.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 376ms (Views: 279.0ms | ActiveRecord: 15.3ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-14 00:01:37 +0000
+Processing by PetsController#index as HTML
+  [1m[36mDoctor Load (3.2ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (2.5ms)[0m  SELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC
+  [1m[36mAnimal Load (3.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (43.8ms)
+  Rendered pets/index.html.erb within layouts/application (127.2ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 398ms (Views: 333.1ms | ActiveRecord: 13.4ms)
+
+
+Started GET "/pets/21" for 10.0.2.2 at 2016-12-14 00:01:38 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mDoctor Load (4.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (3.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "21"]]
+  [1m[35mAnimal Load (2.9ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (3.9ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 21]]
+  [1m[35mAppointment Exists (2.7ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 21]]
+  Rendered pets/_pet_appointments.html.erb (5.7ms)
+  Rendered pets/show.html.erb within layouts/application (151.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 400ms (Views: 376.8ms | ActiveRecord: 19.7ms)
+
+
+Started GET "/pets/21/appointments/new" for 10.0.2.2 at 2016-12-14 00:01:41 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"21"}
+  [1m[35mDoctor Load (2.8ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (4.9ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "21"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered appointments/_form.html.erb (45.3ms)
+  Rendered appointments/new.html.erb within layouts/application (182.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 421ms (Views: 401.8ms | ActiveRecord: 7.8ms)
+
+
+Started POST "/pets/21/appointments" for 10.0.2.2 at 2016-12-14 00:01:47 +0000
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "appointment"=>{"description"=>"Prueba", "amount"=>"25"}, "pet_id"=>"21"}
+  [1m[36mDoctor Load (4.9ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (3.3ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "21"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (8.4ms)[0m  INSERT INTO "appointments" ("amount", "created_at", "description", "doctor_id", "pet_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["amount", #<BigDecimal:a8ca960,'0.25E2',9(18)>], ["created_at", Wed, 14 Dec 2016 00:01:47 UTC +00:00], ["description", "Prueba"], ["doctor_id", 4], ["pet_id", 21], ["updated_at", Wed, 14 Dec 2016 00:01:47 UTC +00:00]]
+  [1m[36m (7.5ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 137ms
+
+NoMethodError (undefined method `email' for nil:NilClass):
+  app/mailers/usermailer.rb:12:in `create_appointment'
+  app/controllers/appointments_controller.rb:12:in `create'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.1ms)
+
+
+Started POST "/pets/21/appointments" for 10.0.2.2 at 2016-12-14 00:02:29 +0000
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "appointment"=>{"description"=>"Prueba", "amount"=>"25"}, "pet_id"=>"21"}
+  [1m[35mDoctor Load (9.1ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (2.6ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "21"]]
+  [1m[35m (6.2ms)[0m  begin transaction
+  [1m[36mSQL (15.7ms)[0m  [1mINSERT INTO "appointments" ("amount", "created_at", "description", "doctor_id", "pet_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["amount", #<BigDecimal:b5de1704,'0.25E2',9(18)>], ["created_at", Wed, 14 Dec 2016 00:02:30 UTC +00:00], ["description", "Prueba"], ["doctor_id", 4], ["pet_id", 21], ["updated_at", Wed, 14 Dec 2016 00:02:30 UTC +00:00]]
+  [1m[35m (5.8ms)[0m  commit transaction
+  Rendered usermailer/create_appointment.html.erb (1.5ms)
+
+Sent mail to kchinchillahn@hotmail.com (3263.0ms)
+Date: Wed, 14 Dec 2016 00:02:31 +0000
+From: veterinariachansey@hotmail.com
+To: kchinchillahn@hotmail.com
+Message-ID: <58508c172c384_ae050633b2901cf@precise32.mail>
+Subject: Nueva Cita Programada
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Kevin Josue</h1>
+    <hr>
+    <h2>Tiene una nueva cita Programada</h2>
+    <p>
+    </p>
+    <hr>
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+Redirected to http://localhost:3000/pets/21
+Completed 302 Found in 4098ms (ActiveRecord: 55.3ms)
+
+
+Started GET "/pets/21" for 10.0.2.2 at 2016-12-14 00:02:34 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mDoctor Load (4.6ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (2.5ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "21"]]
+  [1m[36mAnimal Load (4.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (2.6ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?  [["pet_id", 21]]
+  [1m[36mAppointment Exists (2.3ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1[0m  [["pet_id", 21]]
+  [1m[35mAppointment Load (2.6ms)[0m  SELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?  [["pet_id", 21]]
+  [1m[36mPet Load (2.3ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered appointments/_appointment.html.erb (26.3ms)
+  Rendered pets/_pet_appointments.html.erb (94.1ms)
+  Rendered pets/show.html.erb within layouts/application (226.9ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 448ms (Views: 418.0ms | ActiveRecord: 24.6ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-14 00:02:35 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:35 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:35 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-14 00:02:35 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:35 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:36 +0000
+
+
+Started GET "/pets/21/appointments/new" for 10.0.2.2 at 2016-12-14 00:02:39 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"21"}
+  [1m[35mDoctor Load (2.7ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (4.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "21"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered appointments/_form.html.erb (1.0ms)
+  Rendered appointments/new.html.erb within layouts/application (123.5ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 347ms (Views: 332.8ms | ActiveRecord: 6.8ms)
+
+
+Started POST "/pets/21/appointments" for 10.0.2.2 at 2016-12-14 00:02:46 +0000
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "appointment"=>{"description"=>"Prueba 256", "amount"=>"5"}, "pet_id"=>"21"}
+  [1m[36mDoctor Load (3.3ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (3.2ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "21"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (8.9ms)[0m  INSERT INTO "appointments" ("amount", "created_at", "description", "doctor_id", "pet_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["amount", #<BigDecimal:a5a87c8,'0.5E1',9(18)>], ["created_at", Wed, 14 Dec 2016 00:02:47 UTC +00:00], ["description", "Prueba 256"], ["doctor_id", 4], ["pet_id", 21], ["updated_at", Wed, 14 Dec 2016 00:02:47 UTC +00:00]]
+  [1m[36m (7.3ms)[0m  [1mcommit transaction[0m
+  Rendered usermailer/create_appointment.html.erb (0.1ms)
+
+Sent mail to kchinchillahn@hotmail.com (2119.4ms)
+Date: Wed, 14 Dec 2016 00:02:47 +0000
+From: veterinariachansey@hotmail.com
+To: kchinchillahn@hotmail.com
+Message-ID: <58508c278a72b_ae05062fb690267@precise32.mail>
+Subject: Nueva Cita Programada
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hola Kevin Josue</h1>
+    <hr>
+    <h2>Tiene una nueva cita Programada</h2>
+    <p>
+    </p>
+    <hr>
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>
+Redirected to http://localhost:3000/pets/21
+Completed 302 Found in 2687ms (ActiveRecord: 22.9ms)
+
+
+Started GET "/pets/21" for 10.0.2.2 at 2016-12-14 00:02:49 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mDoctor Load (4.7ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (3.3ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "21"]]
+  [1m[35mAnimal Load (3.1ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (3.1ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 21]]
+  [1m[35mAppointment Exists (2.6ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 21]]
+  [1m[36mAppointment Load (7.3ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 21]]
+  [1m[35mPet Load (4.7ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered appointments/_appointment.html.erb (11.7ms)
+  Rendered pets/_pet_appointments.html.erb (83.3ms)
+  Rendered pets/show.html.erb within layouts/application (167.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 398ms (Views: 364.0ms | ActiveRecord: 29.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:50 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-14 00:02:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-14 00:02:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:50 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:51 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-14 00:02:51 +0000
+
+
+Started GET "/pets/21" for 10.0.2.2 at 2016-12-14 00:07:08 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[35mDoctor Load (4.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (3.8ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "21"]]
+  [1m[35mAnimal Load (3.9ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (3.1ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 21]]
+  [1m[35mAppointment Exists (3.0ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 21]]
+  [1m[36mAppointment Load (3.0ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 21]]
+  [1m[35mPet Load (4.6ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 21]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 21]]
+  Rendered appointments/_appointment.html.erb (11.9ms)
+  Rendered pets/_pet_appointments.html.erb (86.6ms)
+  Rendered pets/show.html.erb within layouts/application (166.3ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 408ms (Views: 377.1ms | ActiveRecord: 26.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-14 00:07:09 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-14 00:07:09 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-14 00:07:09 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-14 00:07:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-14 00:07:10 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-14 00:07:10 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-14 00:07:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-14 00:07:10 +0000
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-14 00:07:11 +0000
+Processing by PetsController#index as HTML
+  [1m[35mDoctor Load (7.6ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (5.2ms)[0m  [1mSELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC[0m
+  [1m[35mAnimal Load (2.2ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  Rendered pets/_pet.html.erb (22.0ms)
+  Rendered pets/index.html.erb within layouts/application (93.1ms)
+  [1m[35mCACHE (0.1ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 337ms (Views: 318.3ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-14 00:07:14 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoctor Load (5.5ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (3.4ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAnimal Load (3.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (3.1ms)[0m  SELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?  [["pet_id", 1]]
+  [1m[36mAppointment Exists (2.2ms)[0m  [1mSELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1[0m  [["pet_id", 1]]
+  [1m[35mAppointment Load (2.8ms)[0m  SELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?  [["pet_id", 1]]
+  [1m[36mPet Load (3.6ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (22.2ms)
+  Rendered pets/_pet_appointments.html.erb (82.1ms)
+  Rendered pets/show.html.erb within layouts/application (161.5ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 390ms (Views: 362.7ms | ActiveRecord: 23.8ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-14 00:07:17 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[35mDoctor Load (2.9ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (2.7ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered appointments/_form.html.erb (0.7ms)
+  Rendered appointments/new.html.erb within layouts/application (116.7ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 341ms (Views: 331.0ms | ActiveRecord: 5.6ms)
+
+
+Started POST "/pets/1/appointments" for 10.0.2.2 at 2016-12-14 00:07:32 +0000
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "appointment"=>{"description"=>"Gato tiene una seria obsesión con los botones", "amount"=>"25"}, "pet_id"=>"1"}
+  [1m[36mDoctor Load (3.2ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (3.3ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (8.4ms)[0m  INSERT INTO "appointments" ("amount", "created_at", "description", "doctor_id", "pet_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["amount", #<BigDecimal:a852398,'0.25E2',9(18)>], ["created_at", Wed, 14 Dec 2016 00:07:32 UTC +00:00], ["description", "Gato tiene una seria obsesión con los botones"], ["doctor_id", 4], ["pet_id", 1], ["updated_at", Wed, 14 Dec 2016 00:07:32 UTC +00:00]]
+  [1m[36m (6.4ms)[0m  [1mcommit transaction[0m
+  Rendered usermailer/create_appointment.html.erb (44.7ms)
+Completed 500 Internal Server Error in 587ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+     8:     <hr>
+     9:     <h2>Tiene una nueva cita Programada: </h2>
+    10:     
+    11:     <p> <b>ID de la cita: </b> <%= @appointment.id %></p> 
+    12:     <p> <b>Nombre de la mascota: </b> <%= @pet.name %></p> 
+    13:     <p> <b>Dictamen: </b> <%= @appointment.description %></p> 
+    14:     <p> <b>Total de Factura: </b> <%= @appointment.amount %></p> 
+  app/views/usermailer/create_appointment.html.erb:11:in `_app_views_usermailer_create_appointment_html_erb__543822659_87435850'
+  app/mailers/usermailer.rb:12:in `create_appointment'
+  app/controllers/appointments_controller.rb:13:in `create'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.6ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.3ms)
+
+
+Started POST "/pets/1/appointments" for 10.0.2.2 at 2016-12-14 00:08:23 +0000
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "appointment"=>{"description"=>"Gato tiene una seria obsesión con los botones", "amount"=>"25"}, "pet_id"=>"1"}
+  [1m[35mDoctor Load (4.7ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (4.5ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (9.0ms)[0m  [1mINSERT INTO "appointments" ("amount", "created_at", "description", "doctor_id", "pet_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["amount", #<BigDecimal:b6085294,'0.25E2',9(18)>], ["created_at", Wed, 14 Dec 2016 00:08:23 UTC +00:00], ["description", "Gato tiene una seria obsesión con los botones"], ["doctor_id", 4], ["pet_id", 1], ["updated_at", Wed, 14 Dec 2016 00:08:23 UTC +00:00]]
+  [1m[35m (82.1ms)[0m  commit transaction
+  Rendered usermailer/create_appointment.html.erb (50.3ms)
+Completed 500 Internal Server Error in 990ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+     8:     <hr>
+     9:     <h2>Tiene una nueva cita Programada: </h2>
+    10:     
+    11:     <p> <b>ID de la cita: </b> <%= @appointment.id %></p> 
+    12:     <p> <b>Nombre de la mascota: </b> <%= @pet.name %></p> 
+    13:     <p> <b>Dictamen: </b> <%= @appointment.description %></p> 
+    14:     <p> <b>Total de Factura: </b> <%= @appointment.amount %></p> 
+  app/views/usermailer/create_appointment.html.erb:11:in `_app_views_usermailer_create_appointment_html_erb__543822659_87435850'
+  app/mailers/usermailer.rb:12:in `create_appointment'
+  app/controllers/appointments_controller.rb:13:in `create'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.7ms)
+
+
+Started GET "/pets" for 10.0.2.2 at 2016-12-14 00:08:30 +0000
+Processing by PetsController#index as HTML
+  [1m[36mDoctor Load (6.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (3.3ms)[0m  SELECT "pets".* FROM "pets" ORDER BY "pets"."name" ASC
+  [1m[36mAnimal Load (2.7ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/_pet.html.erb (84.3ms)
+  Rendered pets/index.html.erb within layouts/application (145.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 362ms (Views: 342.4ms | ActiveRecord: 16.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-14 00:08:31 +0000
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-14 00:08:31 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-14 00:08:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-14 00:08:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-14 00:08:31 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-14 00:08:31 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-14 00:08:32 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-14 00:08:32 +0000
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-14 00:08:45 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDoctor Load (2.9ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (2.8ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAnimal Load (2.4ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (2.6ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mAppointment Exists (2.8ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 1]]
+  [1m[36mAppointment Load (2.5ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mPet Load (2.3ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (44.6ms)
+  Rendered pets/_pet_appointments.html.erb (131.9ms)
+  Rendered pets/show.html.erb within layouts/application (325.6ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 634ms (Views: 497.4ms | ActiveRecord: 35.9ms)
+
+
+Started GET "/pets/1/appointments/new" for 10.0.2.2 at 2016-12-14 00:08:49 +0000
+Processing by AppointmentsController#new as HTML
+  Parameters: {"pet_id"=>"1"}
+  [1m[36mDoctor Load (4.4ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (3.9ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered shared/_errors.html.erb (0.1ms)
+  Rendered appointments/_form.html.erb (0.8ms)
+  Rendered appointments/new.html.erb within layouts/application (134.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 381ms (Views: 367.9ms | ActiveRecord: 8.3ms)
+
+
+Started POST "/pets/1/appointments" for 10.0.2.2 at 2016-12-14 00:09:09 +0000
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "appointment"=>{"description"=>"Gato tiene una obsesión con los botones", "amount"=>"20"}, "pet_id"=>"1"}
+  [1m[35mDoctor Load (3.4ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (5.1ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (9.3ms)[0m  [1mINSERT INTO "appointments" ("amount", "created_at", "description", "doctor_id", "pet_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["amount", #<BigDecimal:a86270c,'0.2E2',9(18)>], ["created_at", Wed, 14 Dec 2016 00:09:09 UTC +00:00], ["description", "Gato tiene una obsesión con los botones"], ["doctor_id", 4], ["pet_id", 1], ["updated_at", Wed, 14 Dec 2016 00:09:09 UTC +00:00]]
+  [1m[35m (6.8ms)[0m  commit transaction
+  Rendered usermailer/create_appointment.html.erb (53.6ms)
+Completed 500 Internal Server Error in 697ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+     8:     <hr>
+     9:     <h2>Tiene una nueva cita Programada: </h2>
+    10:     
+    11:     <p> <b>ID de la cita: </b> <%= @appointment.id %></p> 
+    12:     <p> <b>Nombre de la mascota: </b> <%= @pet.name %></p> 
+    13:     <p> <b>Dictamen: </b> <%= @appointment.description %></p> 
+    14:     <p> <b>Total de Factura: </b> <%= @appointment.amount %></p> 
+  app/views/usermailer/create_appointment.html.erb:11:in `_app_views_usermailer_create_appointment_html_erb__543822659_87435850'
+  app/mailers/usermailer.rb:12:in `create_appointment'
+  app/controllers/appointments_controller.rb:13:in `create'
+
+
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (23.2ms)
+
+
+Started POST "/pets/1/appointments" for 10.0.2.2 at 2016-12-14 00:09:36 +0000
+Processing by AppointmentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mJaTfVJvkohiB42hpuNiYM1tYELZMmuwsfhCaA0sCMk=", "appointment"=>{"description"=>"Gato tiene una obsesión con los botones", "amount"=>"20"}, "pet_id"=>"1"}
+  [1m[36mDoctor Load (2.4ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (2.6ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (8.5ms)[0m  INSERT INTO "appointments" ("amount", "created_at", "description", "doctor_id", "pet_id", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["amount", #<BigDecimal:b5f48c8c,'0.2E2',9(18)>], ["created_at", Wed, 14 Dec 2016 00:09:36 UTC +00:00], ["description", "Gato tiene una obsesión con los botones"], ["doctor_id", 4], ["pet_id", 1], ["updated_at", Wed, 14 Dec 2016 00:09:36 UTC +00:00]]
+  [1m[36m (6.3ms)[0m  [1mcommit transaction[0m
+  Rendered usermailer/create_appointment.html.erb (0.3ms)
+
+Sent mail to kchinchillahn@hotmail.com (4048.6ms)
+Date: Wed, 14 Dec 2016 00:09:37 +0000
+From: veterinariachansey@hotmail.com
+To: kchinchillahn@hotmail.com
+Message-ID: <58508dc1638e8_ae0253f6a02903b9@precise32.mail>
+Subject: Nueva Cita Programada
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content=3D'text/html; charset=3DUTF-8' http-equiv=3D'Content-Ty=
+pe' />
+  </head>
+  <body>
+    <h1>Hola Kevin Josue</h1>
+    <hr>
+    <h2>Tiene una nueva cita Programada: </h2>
+    =
+
+    <p> <b>ID de la cita: </b> 14</p> =
+
+    <p> <b>Nombre de la mascota: </b> Cat 1</p> =
+
+    <p> <b>Dictamen: </b> Gato tiene una obsesi=C3=B3n con los botones</p=
+> =
+
+    <p> <b>Total de Factura: </b> 20.0</p> =
+
+
+    <hr>
+    <p>Eso es todo por ahora, Que tengas un excelente dia</p>
+  </body>
+</html>=
+
+Redirected to http://localhost:3000/pets/1
+Completed 302 Found in 4818ms (ActiveRecord: 37.5ms)
+
+
+Started GET "/pets/1" for 10.0.2.2 at 2016-12-14 00:09:41 +0000
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mDoctor Load (3.8ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mPet Load (5.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mAnimal Load (2.9ms)[0m  SELECT "animals".* FROM "animals" WHERE "animals"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (3.5ms)[0m  [1mSELECT SUM("appointments"."amount") AS sum_id FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mAppointment Exists (2.9ms)[0m  SELECT 1 AS one FROM "appointments" WHERE "appointments"."pet_id" = ? LIMIT 1  [["pet_id", 1]]
+  [1m[36mAppointment Load (3.0ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."pet_id" = ?[0m  [["pet_id", 1]]
+  [1m[35mPet Load (2.5ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered appointments/_appointment.html.erb (50.5ms)
+  Rendered pets/_pet_appointments.html.erb (128.0ms)
+  Rendered pets/show.html.erb within layouts/application (274.2ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+Completed 200 OK in 517ms (Views: 486.2ms | ActiveRecord: 27.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.2.2 at 2016-12-14 00:09:42 +0000
+
+
+Started GET "/assets/font-awesome.css?body=1" for 10.0.2.2 at 2016-12-14 00:09:42 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.2.2 at 2016-12-14 00:09:42 +0000
+
+
+Started GET "/assets/doctors.js?body=1" for 10.0.2.2 at 2016-12-14 00:09:42 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.2.2 at 2016-12-14 00:09:42 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.2.2 at 2016-12-14 00:09:43 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 10.0.2.2 at 2016-12-14 00:09:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 10.0.2.2 at 2016-12-14 00:09:43 +0000
+
+
+Started GET "/pets/1/appointments/14" for 10.0.2.2 at 2016-12-14 00:10:12 +0000
+Processing by AppointmentsController#show as HTML
+  Parameters: {"pet_id"=>"1", "id"=>"14"}
+  [1m[36mDoctor Load (2.2ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mPet Load (2.3ms)[0m  SELECT "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mAppointment Load (3.2ms)[0m  [1mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT 1[0m  [["id", "14"]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered appointments/show.html.erb within layouts/application (3.4ms)
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 199ms (Views: 183.1ms | ActiveRecord: 7.9ms)
